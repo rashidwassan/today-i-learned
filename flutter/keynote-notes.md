@@ -24,6 +24,7 @@ src: https://www.youtube.com/watch?v=2pzzm_PWhmI&list=WL&index=3&ab_channel=Flut
 <ol>
     <li>Flutter is not only Cross-Platform, it is now Multi-Platform.</li>
     <li>Cross platform widgets can be used with their adaptive constructor like 'Slider.adaptive()'</li>
-    <li>There is a package named <a href="https://pub.dev/packages/flutter_platform_widgets">'flutter_platform_widgets'</a> which helps to provide different platform widgets.</li>
+    <li>There is a package named <a href="https://pub.dev/packages/flutter_platform_widgets">flutter_platform_widgets</a> which helps to provide different platform widgets.</li>
     <img height="300" src="https://user-images.githubusercontent.com/60597290/155382752-fc7edc71-ca17-4581-86b7-e3eb99d90727.png">
+    <li>Package like <a href="https://pub.dev/packages/responsive_builder">responsive_builder</a> makes it easier to implement responsiveness for different form factors.</li>
 </ol>
