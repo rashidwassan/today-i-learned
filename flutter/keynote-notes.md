@@ -13,3 +13,10 @@ src: https://www.youtube.com/watch?v=FCyoHclCqc8&ab_channel=FlutterEurope
 2: Transform
 3: Animation Controller
 ```
+
+
+### Multiplatform Flutter. Building Adaptive UI - Alexandr Denisov | Flutter Europe
+src: https://www.youtube.com/watch?v=2pzzm_PWhmI&list=WL&index=3&ab_channel=FlutterEurope
+
+### Key takeaways
+1: Flutter is not only Cross-Platform, it is now Multi-Platform.
