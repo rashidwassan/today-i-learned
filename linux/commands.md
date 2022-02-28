@@ -44,3 +44,12 @@ Is used to create files and change attributes of files.
 ## 5: nano
 A simple & easier text editor.
 
+## 6: vi
+A standard text editor
+### Some info about vi:
+- Press i to insert initially. Esc to return.
+- :wq to save & quit.
+- :w to save the file.
+- :q to quit the file.
+- :q! to quit forcefully.
+
