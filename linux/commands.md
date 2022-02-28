@@ -1,4 +1,5 @@
 # Linux
+## These are some Linux commands that I learn for DevOps.
 #### Intro & Background:
 In 1964, Bell labs tried to develop a multipurpose OS.
 In 1969, they withdrew.
@@ -42,3 +43,4 @@ Is used to create files and change attributes of files.
 
 ## 5: nano
 A simple & easier text editor.
+
