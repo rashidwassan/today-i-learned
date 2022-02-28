@@ -28,5 +28,7 @@ file ‘file1.txt’ if not already created. Replaces contents of
 a file.
 - cat>>file1.txt here double insertion operator means
 appending new contents into the file.
-- tac inverse of cat, used to print lines of contents in
+
+## 4: tac
+tac inverse of cat, used to print lines of contents in
 reverse order.
