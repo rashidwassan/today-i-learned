@@ -16,10 +16,12 @@ Multi User OS.
 # 1: clear
 Usage: clear command is used to clear the terminal screen.
 
+&nbsp;
 # 2: sudo su
 Used to switch to superuser for more privileges.
 Please note: in terminal, $ denotes common user, # denotes super user.
 
+&nbsp;
 # 3: cat
 Is used to create, read, concatenate, and modify files.
 It opens a new editor window when used. Ctrl+d is used to exit.
@@ -30,10 +32,12 @@ a file.
 - cat>>file1.txt here double insertion operator means
 appending new contents into the file.
 
+&nbsp;
 # 4: tac
 tac inverse of cat, used to print lines of contents in
 reverse order.
 
+&nbsp;
 # 5: touch
 Is used to create files and change attributes of files.
 ### ● Different uses of touch command.
@@ -41,9 +45,11 @@ Is used to create files and change attributes of files.
 - touch file1 file2 creates two files.
 - touch -a filename is used to change access time of file.
 
+&nbsp;
 # 5: nano
 A simple & easier text editor.
 
+&nbsp;
 # 6: vi
 A standard text editor
 ### Some info about vi:
