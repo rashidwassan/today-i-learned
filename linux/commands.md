@@ -33,9 +33,12 @@ appending new contents into the file.
 tac inverse of cat, used to print lines of contents in
 reverse order.
 
-## 3: touch
+## 5: touch
 Is used to create files and change attributes of files.
 ### ● Different uses of touch command.
 - touch file2.txt creates an empty file file2.txt.
 - touch file1 file2 creates two files.
 - touch -a filename is used to change access time of file.
+
+## 5: nano
+A simple & easier text editor.
