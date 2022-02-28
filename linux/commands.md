@@ -13,14 +13,14 @@ Multi User OS.
 
 # Linux Commands:
 
-## 1: clear
+# 1: clear
 Usage: clear command is used to clear the terminal screen.
 
-## 2: sudo su
+# 2: sudo su
 Used to switch to superuser for more privileges.
 Please note: in terminal, $ denotes common user, # denotes super user.
 
-## 3: cat
+# 3: cat
 Is used to create, read, concatenate, and modify files.
 It opens a new editor window when used. Ctrl+d is used to exit.
 ### ● Different uses of cat command:
@@ -30,21 +30,21 @@ a file.
 - cat>>file1.txt here double insertion operator means
 appending new contents into the file.
 
-## 4: tac
+# 4: tac
 tac inverse of cat, used to print lines of contents in
 reverse order.
 
-## 5: touch
+# 5: touch
 Is used to create files and change attributes of files.
 ### ● Different uses of touch command.
 - touch file2.txt creates an empty file file2.txt.
 - touch file1 file2 creates two files.
 - touch -a filename is used to change access time of file.
 
-## 5: nano
+# 5: nano
 A simple & easier text editor.
 
-## 6: vi
+# 6: vi
 A standard text editor
 ### Some info about vi:
 - Press i to insert initially. Esc to return.
