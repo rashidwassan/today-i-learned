@@ -13,3 +13,41 @@ AnimatedCrossFade(
   crossFadeState: _first ? CrossFadeState.showFirst : CrossFadeState.showSecond,
 )
 ```
+
+## AlertDialog
+Dialog is the way to go if there is a lot of content to display on single page.
+link: https://api.flutter.dev/flutter/material/AlertDialog-class.html
+
+### Code Snippet
+``` dart
+Future<void> _showMyDialog() async {
+
+  return showDialog<void>(
+    context: context,
+    barrierDismissible: false, // user must tap button!
+    builder: (BuildContext context) {
+      // returning alter dialog, there are other dialogs as well
+      return AlertDialog(
+        title: const Text('AlertDialog Title'),
+        content: SingleChildScrollView(
+          child: ListBody(
+            children: const <Widget>[
+              Text('This is a demo alert dialog.'),
+              Text('Would you like to approve of this message?'),
+            ],
+          ),
+        ),
+        // These are the buttons that you want to show in that dialog.
+        actions: <Widget>[
+          TextButton(
+            child: const Text('Approve'),
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+          ),
+        ],
+      );
+    },
+  );
+}
+```
