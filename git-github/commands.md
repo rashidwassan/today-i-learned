@@ -48,3 +48,18 @@ Merge Conflicts happen when two different branches having at least a single file
 git branch newbranch will create a branch called newbranch.
 git checkout newbranch will switch current branch with newbranch.
 git merge newbranch will merge this new branch into main/master branch.
+
+## Some extra git commands:
+git status displays either your working tree is clean, or there are changes to commit (in that branch).
+git rm –cache file2 this will unstage file2.
+git show <commit id> all the info about the commit.
+git log displays the commit id.
+
+Use git stash when you want to record the current state of the working directory and the index, but want to go back to a clean working directory. The command saves your local modifications away and reverts the working directory to match the HEAD commit.
+git stash will move your recent, non committed changes to a temporary memory, so that the working tree should be clean to work on a quick fix.
+git stash list displays the stash list in indices form.
+git stash apply will bring back your changes from temporary memory.
+git stash clear clears the stashed items.
+
+git reset filename, has two variants, soft one for simply unstaging files.
+git reset –hard used to delete recent changes.
