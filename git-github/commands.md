@@ -39,3 +39,12 @@ git pull origin master is optional, but if the changes are made to the central r
 git push origin pushes your local code to the central repo (usually hosted on GitHub or GitLab).
 This was a typical workflow of Git.
 ```
+
+## Branching in git:
+Branches are created for parallel processing. Allows multiple developers to work on multiple different features while keeping the main branch clean.
+Changes in the staging area are global for every branch (accessible to every bw#
+wranch). If a commit is made, those changes will be private to the branch in which it was committed. You can create an infinite number of branches. Branches of one repo can be merged only.
+Merge Conflicts happen when two different branches having at least a single file which has different content in both branches are merged. Git cannot figure out what change to go with. 
+git branch newbranch will create a branch called newbranch.
+git checkout newbranch will switch current branch with newbranch.
+git merge newbranch will merge this new branch into main/master branch.
