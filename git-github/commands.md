@@ -1,9 +1,7 @@
 # GIT & GITHUB
 
-Centralized VCS required all the PCs to be connected via network. This was an initial concept of version control. If the central repo crashed, the whole code would be lost.
-
-
-Git is a DVCS (distributed version control system).
+## Centralized VCS (like SVN) required all the PCs to be connected via network. This was an initial concept of version control. If the central repo crashed, the whole code would be lost.
+## Git is a DVCS (distributed version control system).
 Subversioning (SVn) was a CVCS (centralized version control system).
 DVCS became popular in 2005.
  Git makes it easier to keep track of your code changes using snapshots (saved states).
@@ -30,6 +28,7 @@ Git Workflow (creating local repo):
   - 2: Staging Area (where files are freezed, decision making area); 
   - 3: Local repo (where commits are stored).
 
+``` bash
 Create a directory (mkdir command).
 Initialize git (run git init command in directory), this will create a local repo in that directory (.git directory will be created).
 cat>file.txt just to create a file to be tracked. You can make code changes here.
@@ -39,3 +38,4 @@ git remote add origin “url” connects local repo with central one.
 git pull origin master is optional, but if the changes are made to the central repo, this will update the local one with those changes.
 git push origin pushes your local code to the central repo (usually hosted on GitHub or GitLab).
 This was a typical workflow of Git.
+```
