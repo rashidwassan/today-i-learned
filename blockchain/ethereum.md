@@ -10,6 +10,7 @@
 - In December 2013, the whitepaper of Ehtereum was published.
 - The paper states that the Bitcoin was very simple system, much more can be done with blockchain.
 - The term 'Smart Contract' was first coined. 
+- Visit rinkeby-faucet.com to request 0.001 ehter in Rinkeby Test network your MetaMask's wallet.
 
 ### What is Ethereum?
 

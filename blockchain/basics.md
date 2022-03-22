@@ -16,5 +16,15 @@
 - With a secure signature scheme available, when the TSS receives the hash value, it appends the date and time, then signs this compound document and sends it to the client.
 
 ## Role of SHA256 hash in blockchain
-
 - SHA256 was developed by NSA (National Security Agency).
+
+## Some useful takeaways from MIT's Blockchain semester course
+All the things covered till lecture number 4 are mentioned above, as I found those things in 'How to time-stamp a Digital Document' paper.
+### Lecture 4:
+- Byzantine Fault Tolerance: The ability of a system to be properly functional if any of it's node(s) fail.
+- The ledger will be append-only.
+
+### Lecture 5:
+- Turing Complete Programming Language: A programming language which allows you to use loops.
+- 10^8 Satoshis in 1 btc.
+- Original mining reward per new block in Bitcoin blockchain was 50btc.

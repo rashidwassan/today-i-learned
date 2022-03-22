@@ -1,5 +1,5 @@
 # YouTube Channels
-
+## Please checkout my repository https://github.com/rashidwassan/learning-resources for updated links.
 ## 1: Flutter (Official)
 ### Flutter's official channel for lot of fun content, the best part is 'Flutter Widget of the Week' playlist.
 link: https://www.youtube.com/c/flutterdev
