@@ -1,0 +1,1 @@
+DAO = Decentralized Autonomus Ogranisations

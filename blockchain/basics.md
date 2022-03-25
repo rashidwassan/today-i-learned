@@ -28,3 +28,4 @@ All the things covered till lecture number 4 are mentioned above, as I found tho
 - Turing Complete Programming Language: A programming language which allows you to use loops.
 - 10^8 Satoshis in 1 btc.
 - Original mining reward per new block in Bitcoin blockchain was 50btc.
+- Reward halves every 210,000 blocks.
