@@ -29,3 +29,14 @@ All the things covered till lecture number 4 are mentioned above, as I found tho
 - 10^8 Satoshis in 1 btc.
 - Original mining reward per new block in Bitcoin blockchain was 50btc.
 - Reward halves every 210,000 blocks.
+
+### Lecture 6:
+- Etherium has higher inflation rate than Bitcoin.
+- Bitcoin has an immutable monetary policy, while Ethereum does not.
+- There can be a change in a monetary policy if there is a proposal by core developers.
+- Ethereum was introduced in 2015.
+- Ethereum Classic is a hard fork of original Ethereum.
+- There are some tradeoffs in choosing between single (programming) language platforms and multi language platforms.
+- Initial Coin Offering (ICO) helps platforms in gaining inital funding, tokens are issued prior to being functional. Tokens are fungible and tradable. Initial value of these coins is based on anticipation of success or profits in future.
+- Contract: promise or performance given in exchange of promise or performance.
+- 
