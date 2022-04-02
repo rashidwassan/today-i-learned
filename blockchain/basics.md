@@ -39,4 +39,3 @@ All the things covered till lecture number 4 are mentioned above, as I found tho
 - There are some tradeoffs in choosing between single (programming) language platforms and multi language platforms.
 - Initial Coin Offering (ICO) helps platforms in gaining inital funding, tokens are issued prior to being functional. Tokens are fungible and tradable. Initial value of these coins is based on anticipation of success or profits in future.
 - Contract: promise or performance given in exchange of promise or performance.
-- 
