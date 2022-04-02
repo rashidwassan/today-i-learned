@@ -9,6 +9,7 @@
 - Segregated Witness (segwit).
 - Softfork of Bitcoin blockchain to increase the block size limit.
 - It allows the block to hold more transaction data by removing the signature data from each transaction.
+- This is the only type of fork which is backwards compatible.
 
 ## Hard Fork:
 - It is a large change.
@@ -19,4 +20,10 @@
 - The forked software is incompatible with original one.
 ### Example of Hard Fork:
 The common example of a hard fork is Bitcoin Cash, the fork was the result of class between developers on transaction block size. When there was no settlement on one choice, the hard fork was made, distributing the developers accordingly.
+
 ## Source Code Fork:
+- Copy of blockchain code base with no resulting connection to the original blockchain.
+
+### Example of Source Code Fork:
+- Litecoin
+- Source Code of Bitcoin blockchain that resulted in an alternative currency.
