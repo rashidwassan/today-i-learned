@@ -35,7 +35,7 @@ Use wget to download the installer.
 Use yum to install the Chef.
 which chef to see where it is located.
 
-Creating recipes and cookbooks:
+### Creating recipes and cookbooks:
 mkdir cookbooks to create a parent directory for cookbooks.
 cd cookbooks
 chef generate cookbook test-cookbook generates new cookbook (apparently a directory) with essential initial files.
@@ -57,7 +57,6 @@ automatic
 
 
 Example recipes:
-
 
 
 file '/myfile' do
