@@ -35,6 +35,9 @@
 - int8[] arr = [int(1), 2, 3]; gets comipled.
 - We cannot assign length to a memory array.
 
+### Bytes
+
+
 ## Data Initializations
     int will be initialized to 0.
     bool will be initialized to false.
