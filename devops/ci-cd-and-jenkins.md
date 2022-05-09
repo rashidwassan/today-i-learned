@@ -26,3 +26,9 @@ Feedback is provided on every level.
 
 
 ## Jenkins
+Jenkins is an open source automation server. It helps automate the parts of software development related to building, testing, and deploying, facilitating continuous integration and continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat. It supports version control tools, including AccuRev, CVS, Subversion, Git, Mercurial, Perforce, ClearCase and RTC, and can execute Apache Ant, Apache Maven and sbt based projects as well as arbitrary shell scripts and Windows batch commands.
+
+- As Jenkins logo illustrates, Jenkins is kind of valet which serves or carries the necessary things to their next destinations.
+- Jenkins is a continous integration tool.
+- Alternatives: Bamboo, Buildbot.
+- Jenkins is the only open source alternative.
