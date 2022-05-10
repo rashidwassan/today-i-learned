@@ -180,3 +180,17 @@ To check if the upload was successful:
 ```
 [chef-repo]# knife cookbook list
 ```
+
+## Run List
+We might have lots of recipes on our server and not all the nodes require all the repositories. To avoid overheads, we can set run lists for each node, associating specific recipes to it.
+To attach a recipe to a node:
+```
+[chef-repo]# knife node run_list set node1 "recipe[cookbookName::recipeName]"
+```
+To check the run list of a node:
+```
+[chef-repo]# knife node show node1
+```
+
+## Updating Node
+Now we will get the access of node and run chef-client in order to sync changes.
