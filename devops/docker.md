@@ -28,8 +28,22 @@ Considering the scenario of developer sending the build to tester, and the produ
 - Traditionally, a VM sits on top of the hypervisor, which sits on host operating system, which again sits on top of the hardware.
 - In containerization, Container sits on top of the Docker engine which then sits on OS sitting on hardware.
 
+## Containers
+- Container is 
+- Multiple containers run on single kernel unlike VMs. 
+
+## Docker Engine
+- Docker engine is responsible for virtualization.
+- Docker engine runs natively on Linux. Uses Linux code when installed on Windows system.
+
 ## Docker Hub
 - Dependencies come from Docker hub.
 
 ## Memory Save
 - Containers have dynamic memory allocation unlike VMs, which saves a lot of memory as we don't have any memory lock.
+
+## Docker & Chef
+- Docker creates containers and Chef configures them.
+
+## Docker in Windows
+- If docker is running on Windows OS, the code inside containers in of Linux.
