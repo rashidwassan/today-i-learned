@@ -123,12 +123,6 @@ Bootstrapping is the process to connect the node the first time to the Chef serv
 - On the same machine where workstation is installed.
 - chef-repo
 - knife ssl check (to check if workstation is connected to server or not)
-- Add following lines as parameters while creating a node.
-```
-#!/bin/bash
-sudo su
-yum update -y
-```
 - visit manage.chef.io and create an account.
 - Download chef-starter.zip after signing up.
 - Chef-starter contains chef-repo (.chef, cookbooks, roles).
@@ -144,3 +138,4 @@ yum update -y
 ### At this point, our workstation is connected to server.
 
 ## Setting Up a Node
+- Make sure the node should be in same availability region.
