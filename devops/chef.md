@@ -117,7 +117,19 @@ Bootstrapping is the process to connect the node the first time to the Chef serv
 - First, we will have to navigate to Chef's official website and get the link of Chef workstation setup file for Linux.
 - Using wget command, download the setup file in your ec2 instance.
 - use yum install xyz.deb to install chef workstation.
-- create some cookbooks and recipes.
+- create some cookbooks and recipes (optional).
   
 ### Setting up Chef Server:
-- 
+- chef-repo
+- knife ssl check (to check if workstation is connected to server or not)
+- Add following lines as parameters while creating a node.
+```
+#!/bin/bash
+sudo su
+yum update -y
+```
+- visit manage.chef.io and create an account.
+- Download chef-starter.zip after signing up.
+- Chef-starter contains chef-repo (.chef, cookbooks, roles).
+- Download WinSCP and login to your Linux machine (server).
+- Copy chef-repo to server using WinSCP (drag & drop).
