@@ -194,3 +194,15 @@ To check the run list of a node:
 
 ## Updating Node
 Now we will get the access of node and run chef-client in order to sync changes.
+
+## Scheduling the process on node
+To schedule chef-client updates
+```
+[node-1]# vi etc/crontab
+```
+To update every minute: Add this as the last line:
+```
+* * * * * root chef-client
+```
+
+### We will always have to manually upload the cookbook updates to server
