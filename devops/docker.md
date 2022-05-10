@@ -16,4 +16,13 @@ Considering the scenario of developer sending the build to tester, and the produ
 - Developed by Soloman Hykes and Sebastian Paul.
 - Docker a set of PaaS.
 - Docker is an open-source centralized platform designed to build, deploy, and run applications.
+- Container is like a virtual machine and docker is the tool which creates this virtual machine.
+- Docker is actually an engine.
+- Traditionally, a VM sits on top of the hypervisor, which sits on host operating system, which again sits on top of the hardware.
+- In containerization, Container sits on top of the Docker engine which then sits on OS sitting on hardware.
+- Containers have dynamic memory allocation unlike VMs
+- VMs made easier to move whole project environment with OS.
+- Docker is just like an advanced version of virtualisation.
+- Docker does containerization.
+- Bare metal hypervisor is type1 hypervisor.
 - 
