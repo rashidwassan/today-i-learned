@@ -29,14 +29,17 @@ Considering the scenario of developer sending the build to tester, and the produ
 - Traditionally, a VM sits on top of the hypervisor, which sits on host operating system, which again sits on top of the hardware.
 - In containerization, Container sits on top of the Docker engine which then sits on OS sitting on hardware.
 
+## Dockerfile
+- Is a blueprint for building an docker image.
+
 ## Containers
-- Container is 
+- Container can be called as a microcomputer having its own CPU, memory, storage, & network.
 - Multiple containers run on single kernel unlike VMs.
 - Containers have layered file system.
 - It holds the entire packages that are needed to run the applications.
 
 ## Image
-- Image is snapshot of a container, it is a read only binary for building docker containers.
+- Image is snapshotor a template of a container, it is a read only binary for building docker containers.
 - You cannot change or modify the image.
 
 ## Ways to create an image
@@ -109,9 +112,15 @@ Considering the scenario of developer sending the build to tester, and the produ
 
 ## docker pull ubuntu
 - Used to download images from docker hub to local machine.
+- We can give a custom path after the package name to intall that package in that directory.
+
+## docker run -it ubuntu /bin/bash
+- Checks the local availablility of a package and downloads if it doesn't find local version.
+- If the local version of the package is available, the container will be created very fast.
 
 ## docker run -it --name rashid ubuntu
 - Here, run means to create and start and -it is flag for interactive mode + terminal.
+- We can use -i -t separately as well.
 - The word right after --name flag will be name which will be given to that container.
 
 ## service docker status
@@ -119,6 +128,7 @@ Considering the scenario of developer sending the build to tester, and the produ
 
 ## docker attach ubuntu
 - To go inside that container.
+- You can simply get out of the container with 'exit' command.
 
 ## docker ps
 - To see how many containers are currently running.
@@ -131,3 +141,10 @@ Considering the scenario of developer sending the build to tester, and the produ
 
 ## docker rm <ContainerName>
 - Removes ubuntu container.
+
+# Docker Workflow
+Make sure the docker engine is installed on the system.
+1) The developer has to specify the environment in the dockerfile. Every instruction or line is considered as an step or a layer. Some of the common keywords that we use in Dockerfile are FROM, WORKDIR, COPY, RUN, ENV etc.
+2) Then any developer can reuse the dockerfile to rebuild the environment using docker build command. Which is saved as an immutable snapshot (image).
+3) Images can be uploaded to the cloud on both public and private registeries.
+4) Anyone can pull that image to create a container.

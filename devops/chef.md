@@ -92,3 +92,16 @@ end
 service 'httpd' do
 action [:enable, :start]
 end
+
+
+## Bootstraping in Chef
+Bootstrapping is the process to connect the node the first time to the Chef server, or to attach it again if the node lost the connectivity to the Chef server. To be able to bootstrap a node, your workstation needs to have the Chef Development Kit installed.
+
+### Setting up Chef Workstation:
+- First, we will have to navigate to Chef's official website and get the link of Chef workstation setup file for Linux.
+- Using wget command, download the setup file in your ec2 instance.
+- use yum install xyz.deb to install chef workstation.
+- create some cookbooks and recipes.
+  
+### Setting up Chef Server:
+- 
