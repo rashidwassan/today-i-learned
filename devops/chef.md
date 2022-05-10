@@ -94,6 +94,17 @@ action [:enable, :start]
 end
 
 
+## Chef as IaC
+- Before IaC - VMs were managed manually and infrastructure was scaled up and down all manually, even the settings were also manually managed.
+- But now as IaC, we define our infrastructure as JSON or YAML file. Since there are only few files, these can be moved to more systems easily.
+- Efficient, error-free, affordable. VCS support. Chef is one of the most common IaC tools.
+- Pros: Saves a lot of money, faster & more efficient, consistency and accountability.
+- Cons: Configuration drift, Re-execution takes a lot of time, & Understanding the code.
+- IaC or Infrastructure as Code means managing the infrastructure using code. 
+
+## Chef Attributes
+
+
 ## Bootstraping in Chef
 Bootstrapping is the process to connect the node the first time to the Chef server, or to attach it again if the node lost the connectivity to the Chef server. To be able to bootstrap a node, your workstation needs to have the Chef Development Kit installed.
 
