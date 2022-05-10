@@ -119,3 +119,15 @@ Considering the scenario of developer sending the build to tester, and the produ
 
 ## docker attach ubuntu
 - To go inside that container.
+
+## docker ps
+- To see how many containers are currently running.
+
+## docker ps -a
+- To see how many containers are currently running or are offline (lists all container available).
+
+## docker stop ubuntu
+- To stop a running container.
+
+## docker rm <ContainerName>
+- Removes ubuntu container.
