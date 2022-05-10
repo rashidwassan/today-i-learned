@@ -101,6 +101,12 @@ Considering the scenario of developer sending the build to tester, and the produ
 ### Docker Host
 - Sits on a very lower level in docker ecosystem.
 - It provides the enviroment to run docker applications.
+  
+### Docker Image
+- Template.
+
+### Docker Compose
+- Tool used to manage the number of containers.
 
 # Docker Commands
 ## docker images

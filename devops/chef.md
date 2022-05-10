@@ -88,7 +88,6 @@ content 'Welcome to 19SW'
 action :create
 end
 
-
 service 'httpd' do
 action [:enable, :start]
 end
@@ -103,7 +102,13 @@ end
 - IaC or Infrastructure as Code means managing the infrastructure using code. 
 
 ## Chef Attributes
-
+- Attributes are key value pairs and are used as variables in programming.
+- Default
+- Force-default
+- Normal
+- Override
+- Force-override
+- Automatic
 
 ## Bootstraping in Chef
 Bootstrapping is the process to connect the node the first time to the Chef server, or to attach it again if the node lost the connectivity to the Chef server. To be able to bootstrap a node, your workstation needs to have the Chef Development Kit installed.
