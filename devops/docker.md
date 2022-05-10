@@ -2,7 +2,7 @@
 - Docker can be simply explained as advanced version of virtulization.
 - Docker is used for containerization.
 - Container is just like a virtual machine.
-- Docker a set of PaaS.
+- Docker a set of PaaS (Platform as a Service).
 - Docker is an open-source centralized platform designed to build, deploy, and run applications.
 - Container is like a virtual machine and docker is the tool which creates this virtual machine.
 - Docker is actually an engine (Docker Daemon).
@@ -11,6 +11,7 @@
 - Docker does containerization. 
 - Bare metal hypervisor is type1 hypervisor.
 - Like we have ESXi hypervisor from VMware or Xen/Nitro in AWS. Docker on the other hand, has Docker engine sitting on top of host OS.
+- Docker is written in GoLang.
 
 
 
@@ -36,6 +37,9 @@ Considering the scenario of developer sending the build to tester, and the produ
 - Docker engine is responsible for virtualization.
 - Docker engine runs natively on Linux. Uses Linux code when installed on Windows system.
 
+## Virtualization
+- Docker uses OS level virtualization. VMs use hardware level virtualization.
+- In OS level virtualization, the container takes resources from OS rather than hardware.
 ## Docker Hub
 - Dependencies come from Docker hub.
 
@@ -47,3 +51,12 @@ Considering the scenario of developer sending the build to tester, and the produ
 
 ## Docker in Windows
 - If docker is running on Windows OS, the code inside containers in of Linux.
+
+## Running Multiple Linux Distros
+- As most of the Linux distros have huge similar codebase. We don't need to spearately install them.
+- We can use that base codebase and add things on top of that to run multiple different distros without any problem.
+
+## Compatibility
+- Docker runs navtively on Linux.
+- It supported on Windows 10 and newer versions of OS.
+- Docker tool contains necessary Linux files, eliminating the need of whole Linux image for each container on Windows.
