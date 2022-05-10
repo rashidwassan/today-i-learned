@@ -98,3 +98,24 @@ Considering the scenario of developer sending the build to tester, and the produ
 ### Docker Host
 - Sits on a very lower level in docker ecosystem.
 - It provides the enviroment to run docker applications.
+
+# Docker Commands
+## docker images
+- To see all images present in your local machine.
+
+## docker search ubuntu
+- Searches for ubuntu package on Docker hub.
+- Will display the different versions of imgages of packages as well.
+
+## docker pull ubuntu
+- Used to download images from docker hub to local machine.
+
+## docker run -it --name rashid ubuntu
+- Here, run means to create and start and -it is flag for interactive mode + terminal.
+- The word right after --name flag will be name which will be given to that container.
+
+## service docker status
+- Checks if docker is running or not (it didn't work in MacOS).
+
+## docker attach ubuntu
+- To go inside that container.
