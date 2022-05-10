@@ -129,13 +129,32 @@ Bootstrapping is the process to connect the node the first time to the Chef serv
 - Download WinSCP and login to your Linux machine (server).
 - Copy chef-repo to server using WinSCP (drag & drop).
 - Now the chef-repo/.chef/ contains config.rb which has the URL.
-- To check chef-server-URL, cat config.rb 
+- To check chef-server-URL
+  ```
+  cat config.rb 
+  ```
 
 ### Checking The Connection
-- knife ssl check
+- To check the connection, run:
+```
+ knife ssl check
+```
 - it should give o/p 'successfully verified certificates from 'api.chef.io''.
 
 ### At this point, our workstation is connected to server.
 
-## Setting Up a Node
-- Make sure the node should be in same availability region.
+## Setting Up a Node (connecting node with server)
+- Make sure the node should be in same availability zone.
+- Now and onwards, we will be working in chef-repo.
+- Create a new Linux machine (node) in same availability zone.
+- Add these commands in advanced details while creating machine.
+  ```
+  #!bin/bash
+  sudo su
+  yum update -y
+  ```
+- Although we have to connect node with workstation, the bootstraping command will always be run on workstation.
+- Now go to workstation and run 
+  ```
+  [chef-repo]# knife bootstrap 
+  ```
