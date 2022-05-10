@@ -102,7 +102,12 @@ end
 - IaC or Infrastructure as Code means managing the infrastructure using code. 
 
 ## Chef Attributes
-- Attributes are key value pairs and are used as variables in programming.
+An attribute is a specific detail about a node. Attributes are used by Chef Infra Client to understand:
+The current state of the node
+What the state of the node was at the end of the previous Chef Infra Client run
+What the state of the node should be at the end of the current Chef Infra Client run
+Attributes are key value pairs and are used like variables in programming.
+Here is the list of different attributes with decreasing priority order.
 - Default
 - Force-default
 - Normal
