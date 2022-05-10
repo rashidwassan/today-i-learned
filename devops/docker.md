@@ -31,11 +31,18 @@ Considering the scenario of developer sending the build to tester, and the produ
 
 ## Containers
 - Container is 
-- Multiple containers run on single kernel unlike VMs. 
+- Multiple containers run on single kernel unlike VMs.
+- Containers have layered file system.
+- It holds the entire packages that are needed to run the applications.
 
 ## Image
-- Image is snapshot of a container.
+- Image is snapshot of a container, it is a read only binary for building docker containers.
 - You cannot change or modify the image.
+
+## Ways to create an image
+    - Take image from docker hub.
+    - Create image form docker file.
+    - Create image from existing containers. 
 
 ## Docker Engine
 - Docker engine is responsible for virtualization.
@@ -70,3 +77,24 @@ Considering the scenario of developer sending the build to tester, and the produ
 - Difficult to manage large number of containers.
 - Not a good solution for GUI rich applications.
 - Docker is suitable only if development and testing environments are same.
+
+## Docker Ecosystem
+
+### Docker Client
+- Where we will code & create a docker file.
+- It is used to communicate with docker daemon.
+- Communication can be through CLI or REST API.
+
+### Docker Daemon/Server
+- Where Docker Engine resides.
+- Builds and runs images.
+- It runs on the host OS.
+
+### Docker Hub / Docker Registry
+- The place where all the images are stored.
+- Registeries can be public (AKA Docker Hub) or private.
+- Private registeries are only accessible within an entreprise.
+
+### Docker Host
+- Sits on a very lower level in docker ecosystem.
+- It provides the enviroment to run docker applications.
