@@ -33,6 +33,10 @@ Considering the scenario of developer sending the build to tester, and the produ
 - Container is 
 - Multiple containers run on single kernel unlike VMs. 
 
+## Image
+- Image is snapshot of a container.
+- You cannot change or modify the image.
+
 ## Docker Engine
 - Docker engine is responsible for virtualization.
 - Docker engine runs natively on Linux. Uses Linux code when installed on Windows system.
@@ -60,3 +64,9 @@ Considering the scenario of developer sending the build to tester, and the produ
 - Docker runs navtively on Linux.
 - It supported on Windows 10 and newer versions of OS.
 - Docker tool contains necessary Linux files, eliminating the need of whole Linux image for each container on Windows.
+
+## Disadvantages:
+- Cross platform issues with containers. It is highly recommended to have same OS across different devices to run containers.
+- Difficult to manage large number of containers.
+- Not a good solution for GUI rich applications.
+- Docker is suitable only if development and testing environments are same.
