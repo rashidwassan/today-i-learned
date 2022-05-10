@@ -121,7 +121,6 @@ Bootstrapping is the process to connect the node the first time to the Chef serv
   
 ### Setting up Chef Server:
 - On the same machine where workstation is installed.
-- chef-repo
 - knife ssl check (to check if workstation is connected to server or not)
 - visit manage.chef.io and create an account.
 - Download chef-starter.zip after signing up.
@@ -135,7 +134,7 @@ Bootstrapping is the process to connect the node the first time to the Chef serv
   ```
 
 ### Checking The Connection
-- To check the connection, run:
+To check the connection, run:
 ```
  knife ssl check
 ```
@@ -154,7 +153,30 @@ Bootstrapping is the process to connect the node the first time to the Chef serv
   yum update -y
   ```
 - Although we have to connect node with workstation, the bootstraping command will always be run on workstation.
-- Now go to workstation and run 
+Now go to workstation and run 
   ```
   [chef-repo]# knife bootstrap <PrivateIP> --ssl-user ec2-user -- sudo -i node-key.pem -N node1
   ```
+- Remember that the node-key.pem has been downloaded from node1 and transferred to chef workstation.
+  
+### Checking if Node is connected to server
+```
+[chef-repo]# knife node list
+```
+Displays the nodes connected to the server.
+
+## Now: Workstation -> Server -> Node
+
+### Cookbooks Directory
+- We should have only one cookbooks directory to avoid confusions, the best place is to store cookbooks in chef-repo/cookbooks as we cannot delete this directory.
+
+## Uploading cookbooks to chef server from workstation
+
+To upload cookbook from workstation to server, use:
+```
+[chef-repo]# knife cookbook upload <cookbook-name>
+```
+To check if the upload was successful:
+```
+[chef-repo]# knife cookbook list
+```
