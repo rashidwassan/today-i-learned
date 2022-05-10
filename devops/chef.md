@@ -156,5 +156,5 @@ Bootstrapping is the process to connect the node the first time to the Chef serv
 - Although we have to connect node with workstation, the bootstraping command will always be run on workstation.
 - Now go to workstation and run 
   ```
-  [chef-repo]# knife bootstrap 
+  [chef-repo]# knife bootstrap <PrivateIP> --ssl-user ec2-user -- sudo -i node-key.pem -N node1
   ```
