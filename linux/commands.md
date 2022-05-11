@@ -40,7 +40,7 @@ reverse order.
 &nbsp;
 # 5: touch
 Is used to create files and change attributes of files.
-### ● Different uses of touch command.
+### Different uses of touch command.
 - touch file2.txt creates an empty file file2.txt.
 - touch file1 file2 creates two files.
 - touch -a filename is used to change access time of file.
@@ -71,10 +71,10 @@ cat>>file1.txt here double insertion operator means appending new contents into 
 tac inverse of cat, used to print lines of contents in reverse order.
 
 touch: used to create empty files, or change attributes.
-  Different uses of touch command.
-touch file2.txt creates an empty file file2.txt.
-touch file1 file2 creates two files.
-touch -a filename is used to change access time of file.
+### Different uses of touch command.
+- touch file2.txt creates an empty file file2.txt.
+- touch file1 file2 creates two files.
+- touch -a filename is used to change access time of file.
 
 nano: a simple & easier text editor.
 
