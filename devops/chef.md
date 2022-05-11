@@ -48,15 +48,6 @@ Node: Is the system which requires the configurations.
 - chef exec ruby -c test-cookbook/recipes/test-recipe.rb checks the recipe syntax (desired output: Syntax OK).
 - chef-client -zr “recipe[test-cookbook::test-recipe]” will perform the operations according to0 recipe code.
 
-### Chef Attributes According to Priority (increasing order):
-- default
-- force-default
-- normal
-- override 
-- force_override
-- automatic 
-
-
 ### Example recipes:
 
 This recipe creates a file and adding 'Welcome to 19SW' as content.
@@ -120,13 +111,13 @@ end
 - What the state of the node was at the end of the previous Chef Infra Client run
 - What the state of the node should be at the end of the current Chef Infra Client run
 - Attributes are key value pairs and are used like variables in programming.
-Here is the list of different attributes with increasing priority order.
-- Default
-- Force-default
-- Normal
-- Override
-- Force-override
-- Automatic
+### Chef Attributes According to Priority (increasing order):
+- default
+- force-default
+- normal
+- override 
+- force_override
+- automatic 
 
 ## Bootstraping in Chef
 Bootstrapping is the process to connect the node the first time to the Chef server, or to attach it again if the node lost the connectivity to the Chef server. To be able to bootstrap a node, your workstation needs to have the Chef Development Kit installed.
