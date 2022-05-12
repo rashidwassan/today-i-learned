@@ -103,7 +103,8 @@ Lists the contents of a directory.
 ### stat
 Command is used to list down the timestamps attributes of a file. Touch command can be used to alter the timestamps.
 
-- mkdir: used to create new directories.
+### mkdir
+used to create new directories.
 - mkdir dira dirb creates two directories.
 - mkdir -p: creates directory along with parent directories. Mkdir root/rashid/dir2/dir3.
 
