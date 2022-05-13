@@ -106,6 +106,8 @@ Symmetric algorithms employed today use both long sequences of complicated subst
 - Sometimes, diffrent but related keys are used.
 
 ## Symmetric VS Asymmetric Algorithms
+- Asymmetric methods are slower & computationally expensive but provide authentication. They provde easier key management.
+- Symmetric is used for bulk encryption, while asymmetric is used for key distribution and digital signatures.
 ### Symmetric Algoritms
 - Symmetric algorithms use same symmetric or secret keys.
 - Sender and receiver uses the instances of the same key for encryption and decryption.
@@ -122,10 +124,30 @@ Symmetric algorithms employed today use both long sequences of complicated subst
 - Examples of Symetric Algorithms: DES, 3DES, Blowfish, IDEA, RC4, RC5, RC6, & AES.
 
 ### Asymmetric Cryptography
-- In public key systems, each entity has different keys, or asymmetric keys.
+- In public key systems (asymmetric cryptography), each entity has different keys, or asymmetric keys.
 - Both keys are mathematically related, one used for encryption and one for decryption of data.
 - The public key locks, private key unlocks.
 - Public can be known by third parties but private key must be kept secret.
 - As keys are mathematically related, make sure no one is able to obtain private key from public key.
 - It is not possible to encrypt and decrypt using the same key in assymetric systems.
 - Authentication: As receiver decrypts the message using Bob's public key, this makes sure that the message is form Bob as only he is suppposed to have that key.
+- Open message format: If the message is encrypted with someone's private key, anyone can decrypt is with related public key. Confidentiality is not ensured.
+- Confidentiality: Bob can encrypt data with the receivers public key, and the receiver can then decrypt it with his private key.
+- Secure Message Format: If confidentiality is the most important security service to a sender, he would encrypt the file with the receiver’s public key. It can only be decrypted by the person who has the corresponding private key.
+- Strengths: Better key distribution, better scalability, authenticaion, and nonrepudiation.
+- Weaknesses: Slow, mathematically intensive.
+- Examples: RSA (Rivest, Shamir, Adleman), Elliptic Curve Cryptosystem (ECC), Diffie-Hellman, El Gamal, Digital Signature Algorithm.
+
+
+# Types of Symmetric Algorithms
+
+## Block Ciphers
+- Work on blocks of bits.
+- The message to be encrypted is first divided into blocks of bits.
+- Then these blocks go through functions to get encrypted.
+- Data is divided into 64 bit blocks.
+- Output is encypted blocks.
+- 
+## Stream Ciphers
+- Work in bits by bits manner.
+- 
