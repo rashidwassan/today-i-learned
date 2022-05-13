@@ -307,4 +307,26 @@ If a CBC-MAC is being used, the message is encrypted with a symmetric block ciph
 - Uses RSA.
 
 ## Quantum Cryptography
-- Because of the need to always build a better algorithm, some very smart people have mixed quantum physics and cryptography, which has resulted in a system (if built correctly) that is unbreakable and where any eavesdroppers can be detected. 
+- Because of the need to always build a better algorithm, some very smart people have mixed quantum physics and cryptography, which has resulted in a system (if built correctly) that is unbreakable and where any eavesdroppers can be detected.
+- Quantum cryptography can be carried out using various methods. So, we will walk through one version to review how all this works.
+- The electromagnetic waves have an orientation of horizontal or vertical, or left hand or right hand.
+- Now both Kathy and Tom each have their own photon gun, which they will use to send photons (information) back and forth to each other. They also have a mapping between the polarization of a photon and a binary value.
+-  In this example, a photon with a vertical (|) polarization maps to the binary value of 0. A left polarization (\) maps to 1, a right polarization (/) maps to 0, and a horizontal polarization (–) maps to 1. This mapping (or encoding) is the binary values that make up an encryption key. 
+- So they both have to agree upon a key, which is the mapping between the polarization states of the photons and how those states are represented in a binary value. This happens at the beginning of a communication session over a dedicated fiber line. 
+- Since this type of cryptography is based on quantum physics and not strictly mathematics, the sender and receiver can be confident that no eavesdropper is listening to the communication path used to establish their key and that a man-in-the-middle attack is not being carried out. 
+
+## Internet Security
+- Variety of protocols that browser cannot understand.
+- But browsers have capabilities to process many commands.
+- but they do not understand them all. For those protocols or commands the user’s browser does not know how to process, the user can download and install a viewer or plug-in, a modular component of code that integrates itself into the system or browser. 
+
+### HTTP
+TCP/IP is the protocol suite of the Internet, and HTTP is the protocol of the Web. HTTP sits on top of TCP/IP. When a user clicks a link on a web page with his mouse, his browser uses HTTP to send a request to the web server hosting that web site. The web server finds the corresponding file to that link and sends it to the user via HTTP.
+- HTTP is a stateless protocol, which means the client and web server make and break a connection for each operation. When a user requests to view a web page, that web server finds the requested web page, presents it to the user, and then terminates the connection.
+
+### HTTP Secure
+HTTP Secure (HTTPS) is HTTP running over SSL. (HTTP works at the application layer and SSL works at the transport layer.) Secure Sockets Layer (SSL) uses public key encryption and provides data encryption, server authentication, message integrity, and optional client authentication.
+- The server sends a message back to the client, indicating a secure session should be established, and the client in response sends its security parameters. The server compares those security parameters to its own until it finds a match. 
+- The client generates a session key and encrypts it with the server’s public key. This encrypted key is sent to the web server, and they both use this symmetric key to encrypt the data they send back and forth. This is how the secure channel is established.
+
+
