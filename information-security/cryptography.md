@@ -115,3 +115,17 @@ Symmetric algorithms employed today use both long sequences of complicated subst
 ### Asymmetric Algorithms
 - Asymmetric algorithms use same asymmetric or public and private keys.
 - The more the people to share message with, more instances of key are needed.
+- The equation used to calculate the number of symmetric keys needed is: N(N – 1)/2 = number of keys
+- Sharing and updating asymmetric keys can be a big hassle as we have to transfer keys through secure channel without anyone intercepting in the middle.
+- Assymetric keys are much faster and less computationally intensive, and are hard to break.
+- But they require secure tranfer mechanism, overwhelming key management, do not provide authenticity.
+- Examples of Symetric Algorithms: DES, 3DES, Blowfish, IDEA, RC4, RC5, RC6, & AES.
+
+### Asymmetric Cryptography
+- In public key systems, each entity has different keys, or asymmetric keys.
+- Both keys are mathematically related, one used for encryption and one for decryption of data.
+- The public key locks, private key unlocks.
+- Public can be known by third parties but private key must be kept secret.
+- As keys are mathematically related, make sure no one is able to obtain private key from public key.
+- It is not possible to encrypt and decrypt using the same key in assymetric systems.
+- Authentication: As receiver decrypts the message using Bob's public key, this makes sure that the message is form Bob as only he is suppposed to have that key.
