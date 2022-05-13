@@ -192,5 +192,17 @@ Symmetric algorithms employed today use both long sequences of complicated subst
 - Sensitive data should not be encrypted in CFB mode. Use OFB mode which reduces the chance of bit corruptions.
 - Counter mode: increments counter with each next block. The unique counter value makes sure that block is XORed with unique keystream value. No chaining is involved. Parallel processing for performance. It is used for quite a while for ATMs.
 - Why CTR?
+  - As there is no chaining involved and ATM data is not sent in order, the decryption is faster and no need of waiting for full message.
+- Double DES
 
 ### AES (Advanced Encryption Standard)
+
+## Difference Between Public Key Cryptography & Public key infrastructure?
+- Public key cryptography is use of asymmetric algorithm. Thus called public key cryptography and asymmetric cryptography mean same.
+- RSA, Elliptic curve, diffie-hellman.
+- Used to create public/private keys, perform exchanges, generate and verify digital signatures.
+- Diffie-Hellman can only verify agreements.
+- Public key infrastucture is not an algorithm, protocol, or a software, it is an infrastructure.
+
+### One way functions
+- A function which is easier to compute one way but difficult in vice-versa.
