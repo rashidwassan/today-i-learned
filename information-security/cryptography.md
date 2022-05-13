@@ -297,3 +297,14 @@ If a CBC-MAC is being used, the message is encrypted with a symmetric block ciph
 - HAVAL: Variable Length, mod of MD5 but secure.
 - SHA: Produces 160 bit hash value used with DSA.
 - Ross Anderson and Eli Biham developed a hashing algorithm called Tiger in 1995. It was designed to carry out hashing functionalities on 64-bit systems and to be faster than MD5 and SHA-1. The resulting hash value is 192 bits. 
+
+## Secure MIME
+- Secure MIME (S/MIME) is a standard for encrypting and digitally signing electronic mail and for providing secure data transmissions.
+- S/MIME provides confidentiality through encryption algorithms, integrity through hashing algorithms, authentication through the use of X.509 public key certificates, and non-repudiation through cryptographically signed message digests.
+
+## PGP
+- Pretty Good Privacy (PGP)  was designed by Phil Zimmerman as a freeware e-mail security program and was released in 1991.It was the first widespread public key encryption program. PGP is a complete cryptosystem that uses cryptographic protection to protect e-mail and files.
+- Uses RSA.
+
+## Quantum Cryptography
+- Because of the need to always build a better algorithm, some very smart people have mixed quantum physics and cryptography, which has resulted in a system (if built correctly) that is unbreakable and where any eavesdroppers can be detected. 
