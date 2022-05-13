@@ -206,3 +206,11 @@ Symmetric algorithms employed today use both long sequences of complicated subst
 
 ### One way functions
 - A function which is easier to compute one way but difficult in vice-versa.
+- Example: RSA algorithm multiplying two large prime numbers.
+- Attacks on these types of cryptosystems do not necessarily try every possible key value, but rather try to factor the large number, which will give the attacker the private key.
+- When a user encrypts a message with a public key, this message is encoded with a one-way function (breaking a glass). This function supplies a trapdoor (knowledge of how to put the glass back together), but the only way the trapdoor can be taken advantage of is if it is known about and the correct code is applied. The private key provides this service. 
+- only the public key can carry out encryption and signature verification and only the private key can carry out decryption and signature generation.
+- work factor is the amount of time and resources it would take for someone to break an encryption method. 
+- El Gamal: It is based not on the difficulty of factoring large numbers but on calculating discrete logarithms in a finite field. It is extension of Diffie-Hellman. Slowest algorithm.
+- Elliptic Curve Cryptosystems: Elliptic curves are rich mathematical structures that have shown usefulness in many different types of applications. ECC is more efficient than RSA and any other asymmetric algorithm.
+
