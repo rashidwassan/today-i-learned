@@ -68,3 +68,12 @@ Each pad scheme must be:
 - Securely distributed to its destination.
 - Secure at sender and receiver's site.
 - At least as long as the message.
+
+## Steganography
+- Steganography is a method of hiding the data into another media types so that the actual data is concealed.
+- Only sender and reciever are aware of that hidden data.
+- Data is only hidden, not encrypted.
+
+### Encrypting
+- Message embedding requires the use of Least Significant Bit (LSB).
+- 
