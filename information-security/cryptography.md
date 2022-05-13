@@ -34,3 +34,14 @@ The acknowledgement of message reception.
 
 ### Work Factor
 Estimated time, effort, and resources required to break a cryptosystem.
+
+### Classification of the field of Cryptography
+
+## Cryptology
+### Cryptography
+- Symmetric Ciphers
+  - Block Cyphers
+  - Stream Cyphers
+- Asymmetric Ciphers
+- Protocols
+### Cryptanalysis
