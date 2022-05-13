@@ -147,7 +147,50 @@ Symmetric algorithms employed today use both long sequences of complicated subst
 - Then these blocks go through functions to get encrypted.
 - Data is divided into 64 bit blocks.
 - Output is encypted blocks.
-- 
+- A strong cipher contains the right level of confusion and diffusion.
+- Confusion is carried out by substitution.
+- Diffusion is carried out by transportation.
+- The strong cipher must contain confusion & diffusion to ensure impossiblity of reverse engineering.
+- The randomness of key value & complexity of mathematical functions dictate the level of confusion and diffusion.
+- Confusion makes the relation between key and ciphertext very complex.
+- Each value in ciphertext shoud depend upon the key. But this mapping should seem totally random to the observer.
+- Diffusion means a single plaintext bit has high influence over other bits. Changing it should change many other bits too.
+- S boxes: S-boxes are to be used when scrambling the original message from readable plaintext to encrypted non-readable cipher text.
 ## Stream Ciphers
 - Work in bits by bits manner.
-- 
+- a stream cipher treats the message as a stream of bits and performs mathematical functions on each bit individually.
+- Uses keystream generators which used XOR operations on each bit to produce ciphertext.
+- Similarity with one-pad: one pad also uses XOR, but in this case, keystream is generated instead of a pad.
+- Function of Key: As we can XOR plaintext with ciphertext, we can find the message. So key protects the message in this case. Keys define the randomness of bits XORed in plaintext.
+- Initialization vectors make sure that there is no pattern created.
+- Characteristics of Strong Stream Ciphers: Statistically unpredictable keystream, keystream no linearly related to key, unbiased keystream.
+- Stream ciphers require lot of power, block ciphers don't and are implemented at software level.
+- Stream ciphers may not provide the level of protection that one-time pads do, but are more practical.
+
+## Hybrid Encryption Systems:
+- Use symmetric and asymmetric encryption methods together.
+
+# Symmetric Algorithms
+### DES (Data Encryption Standard)
+- NSA announced in 1986.
+- It's popularity made NSA skeptic about its success.
+- Electronic Frontier Foundation made a computer which broke this encryption in 3 days using brute force attack.
+- DES works in blocks of 64-bit.
+- It uses 64-bit key, 56 for actual key and 8 for parity.
+- Blocks are put through 16 rounds of transposition and substitution functions.
+- The order and type of transposition depends upon key.
+
+### When algorithm is broken?
+- When someone uncovers the key that was used to encrypt.
+
+### Cipher Feedback Mode (CFB)
+- Email client uses CBC, which is ideal when data is sent in large chunks.
+- Sometimes each keystroke is sent to backend terminal server in chunks of 8bits, as CBC works with 64bit chunks, we would use CBC mode. Which is combo of block cipher and stream cipher.
+- For first 8bits we use initalization vectors.
+- One 8bit ciphertext block goes to terminal server and second one is used to encrypt next block.
+- ECB for encrypting small amount of data, CBC for larger chunks.
+- Sensitive data should not be encrypted in CFB mode. Use OFB mode which reduces the chance of bit corruptions.
+- Counter mode: increments counter with each next block. The unique counter value makes sure that block is XORed with unique keystream value. No chaining is involved. Parallel processing for performance. It is used for quite a while for ATMs.
+- Why CTR?
+
+### AES (Advanced Encryption Standard)
