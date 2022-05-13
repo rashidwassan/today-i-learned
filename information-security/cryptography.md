@@ -86,3 +86,16 @@ Each pad scheme must be:
 - The logo is embedded and visible to allow others not to copy the material which does not belong to them.
 - This type fo steganography is reffered to as Digital Rights Management (DRM).
 
+## Types of Ciphers
+### Symmetric Encryption Ciphers have two types:
+- Substitution
+  - They replace bits, characters, and blocks with different ones.
+  - In the Caesar cipher, each letter is replaced with the letter three places beyond it. The key is 'Shift up three'.
+  - Substitutions used nowadays are very complex compared to this.
+- Transportation
+  - The values are scrambled or put into another order.
+  - Key determines the positions the values are moved to.
+Symmetric algorithms employed today use both long sequences of complicated substitutions and transpositions on messages.
+- Consider algorithm a box of boxes, each box has own set of mathematical rules.
+- If each of our messages always go through the same boxes and values, the evildoer can easily figure out the process.
+- To foil the evildoer, we use the key which defines from which boxes and values will the message pass.
