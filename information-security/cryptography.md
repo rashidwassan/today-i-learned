@@ -211,6 +211,46 @@ Symmetric algorithms employed today use both long sequences of complicated subst
 - When a user encrypts a message with a public key, this message is encoded with a one-way function (breaking a glass). This function supplies a trapdoor (knowledge of how to put the glass back together), but the only way the trapdoor can be taken advantage of is if it is known about and the correct code is applied. The private key provides this service. 
 - only the public key can carry out encryption and signature verification and only the private key can carry out decryption and signature generation.
 - work factor is the amount of time and resources it would take for someone to break an encryption method. 
-- El Gamal: It is based not on the difficulty of factoring large numbers but on calculating discrete logarithms in a finite field. It is extension of Diffie-Hellman. Slowest algorithm.
-- Elliptic Curve Cryptosystems: Elliptic curves are rich mathematical structures that have shown usefulness in many different types of applications. ECC is more efficient than RSA and any other asymmetric algorithm.
+### El Gamal 
+It is based not on the difficulty of factoring large numbers but on calculating discrete logarithms in a finite field. It is extension of Diffie-Hellman. Slowest algorithm.
+### Elliptic Curve Cryptosystems
+Elliptic curves are rich mathematical structures that have shown usefulness in many different types of applications. ECC is more efficient than RSA and any other asymmetric algorithm. They are very efficient.
+### Knapsack
+Over the year, different versions of this algorithm have arisen.
+- This algorithm was discovered to eb insecure and is not in use in cryptosystems.
 
+### Zero Knowledge Proof
+I am proving to you I have my private key—but I do not give or show you my private key.
+
+## Message integrity
+- CRC - Cyclic Redundancy Checks are used to spot modifications in message made while travelling.
+- Parity bits cannot identify whether a message was captured by an intruder, altered, and then sent on to the intended destination as parity bits can be regenrated.
+
+### One way hash
+- Takes a variable-length string and a message and produces a fixed-length value called a hash value.
+- When Bilal receives the message, he performs the same hashing function Ahmad used and then compares his result with the hash value sent with the message. 
+- The hashing algorithm is not a secret—it is publicly known.
+- Hashing is one-way function without keys.
+- Message Authentication Code is needed to make things secure if inruder modifies the message and hash.
+- A MAC function is an authentication scheme derived by applying a secret key to a message in some form.
+- Message Authentication Codes (MACs).
+
+### Hashing
+- A hashing value can also be called a message digest or fingerprint.
+1. The sender puts the message through a hashing function.
+2. A message digest value is generated.
+3. The message digest is appended to the message.
+4. The sender sends the message to the receiver.
+5. The receiver puts the message through a hashing function.
+6. The receiver generates his own message digest value.
+7. The receiver compares the two message digest values. If they are the same, the message has not been altered.
+
+### HMAC
+1. The sender concatenates a symmetric key with the message.
+2. The result is put through a hashing algorithm.
+3. A MAC value is generated.
+4. The MAC value is appended to the message.
+5. The sender sends the message to the receiver. (Just the message with the attached MAC value. The sender does not send the symmetric key with the message.)
+6. The receiver concatenates a symmetric key with the message.
+7. The receiver puts the results through a hashing algorithm and generates his own MAC value.
+8. The receiver compares the two MAC values. If they are the same, the message has not been modified.
