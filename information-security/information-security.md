@@ -204,11 +204,7 @@ More content will be added soon.
 
 
 
-Cryptography
-SLIDE #8
-
-
-Cryptography:
+### Cryptography
 Definition & Concepts: 
 Data on computers is protected by logical & physical access controls.
 While data travels, it is vulnerable.
@@ -236,4 +232,6 @@ Integrity: data immutability.
 Authentication: verify the user.
 Authorization: users will be provided with a key, to access resources.
 Nonrepudiation: sender cannot deny sending the message.
+
+### For Final Exams
 
