@@ -45,3 +45,26 @@ Estimated time, effort, and resources required to break a cryptosystem.
 - Asymmetric Ciphers
 - Protocols
 ### Cryptanalysis
+
+## One-Time Pad
+- Encryption scheme (aka Vernam Cipher).
+- Unbreakable if properly implemented.
+- Invented by Gilbert Vernam in 1917.
+
+### Encoding in One-Time Pad
+- Uses a pad made up of random values instead of shifting aplhabets.
+- Message is converted into bits and bits are randomised then using one-time pad constructed from them.
+- It uses binary mathematic function XOR.
+- Here, message and key bits are XORed and resulting bits form ecnrypted data.
+
+### Decoding in One-Time Pad
+- User must have that one time pad.
+- The XOR process is then reversed (run again) to obtain the message.
+
+### Requirements:
+Each pad scheme must be:
+- Made up of truly random values.
+- Used only one time.
+- Securely distributed to its destination.
+- Secure at sender and receiver's site.
+- At least as long as the message.
