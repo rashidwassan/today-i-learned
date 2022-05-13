@@ -76,4 +76,13 @@ Each pad scheme must be:
 
 ### Encrypting
 - Message embedding requires the use of Least Significant Bit (LSB).
-- 
+- Many types of files have some bits which can be altered without noticeable visible changes.
+- Those bits can be modified to store message.
+- Most suitable files to hide data can be high resolution images or high bit-rate audio files.
+- No any increment in file size is noticeable as well.
+- This can be used to hide images in images.
+
+### Digital Watermarking
+- The logo is embedded and visible to allow others not to copy the material which does not belong to them.
+- This type fo steganography is reffered to as Digital Rights Management (DRM).
+
