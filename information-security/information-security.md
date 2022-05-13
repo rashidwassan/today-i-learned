@@ -1,17 +1,17 @@
-Section 1
-Introduction
+# Information Security
+
+## Introduction
+
+### Three objectives of IT Security:
+- Confidentiality
+- Integrity
+- Availability
 
 
-Three objectives of IT Security:
-Confidentiality
-Integrity
-Availability
-
-
-Three Foundations of IT Security
-People
-Processes
-Technology
+### Three Foundations of IT Security
+- People
+- Processes
+- Technology
 
 
 Section 3
