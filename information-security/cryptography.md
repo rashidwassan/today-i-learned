@@ -254,3 +254,46 @@ I am proving to you I have my private key—but I do not give or show you my pri
 6. The receiver concatenates a symmetric key with the message.
 7. The receiver puts the results through a hashing algorithm and generates his own MAC value.
 8. The receiver compares the two MAC values. If they are the same, the message has not been modified.
+
+Now, when we say that the message is concatenated with a symmetric key, we don’t mean a symmetric key is used to encrypt the message. The message is not encrypted in an HMAC function, so there is no confidentiality being provided. 
+
+### CBC-MAC
+If a CBC-MAC is being used, the message is encrypted with a symmetric block cipher in CBC mode, and the output of the final block of ciphertext is used as the MAC.
+- The use of the symmetric key ensures that the only person who can verify the integrity of the message is the person who has a copy of this key.
+- A private key is bound to an individual; a symmetric key is not. MAC authentication provides the weakest form of authentication because it is not bound to a user, just to a computer or device.
+
+## CMAC (Cipher Based Message Authentication Code)
+- CMAC provides the same type of data origin authentication and integrity as CBC-MAC, but is more secure mathematically.
+- CMAC is a variation of CBC-MAC. It is approved to work with AES and Triple DES.
+- So here is how CMAC works: the symmetric algorithm (AES or 3DES) creates the symmetric key. This key is used to create subkeys. The subkeys are used individually to encrypt the individual blocks of a message.
+### Hash Functionality
+1. Sender puts a message through a hashing algorithm and generates a message digest (MD) value.
+2. Sender sends message and MD value to receiver.
+3. Receiver runs just the message through the same hashing algorithm and creates an independent MD value.
+4. Receiver compares both MD values. If they are the same, the message was not modified.
+
+### HMAC Functionality
+1. Sender concatenates a message and secret key and puts the result through a hashing algorithm. This creates a MAC value.
+2. Sender appends the MAC value to the message and sends it to the receiver.
+3. The receiver takes just the message and concatenates it with his own symmetric key. This results in an independent MAC value.
+4. The receiver compares the two MAC values. If they are the same, the receiver knows the message was not modified and knows from which system it came.
+
+### CBC MAC Functionality
+1. Sender encrypts a message with a symmetric block algorithm in CBC mode.
+2. The last block is used as the MAC.
+3. The plaintext message and the appended MAC are sent to the receiver.
+4. The receiver encrypts the message, creates a new MAC, and compares the two values. If they are the same, the receiver knows the message was not modified and from which system it came.
+
+### CMAC Functionality
+- CMAC works the same way as the CBC-MAC, but is based on more complex logic and mathematical functions.
+
+### Hashing Algorithms
+- the goal of using a one-way hash function is to provide a fingerprint of the message. If two different messages produce the same hash value, it would be easier for an attacker to break that security mechanism, because patterns would be revealed.
+
+### Hashing Algorithms Used Today
+- Message Digest 2 (MD2) algorithm: One-way function 128 bit hash value, slower.
+- MD4: One-way, 128 bit value.
+- MD5: 128 bit value, complex than MD4.
+- HAVAL: Variable Length, mod of MD5 but secure.
+- SHA: Produces 160 bit hash value used with DSA.
+- Ross Anderson and Eli Biham developed a hashing algorithm called Tiger in 1995. It was designed to carry out hashing functionalities on 64-bit systems and to be faster than MD5 and SHA-1. The resulting hash value is 192 bits. 
