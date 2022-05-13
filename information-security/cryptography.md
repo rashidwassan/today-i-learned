@@ -99,3 +99,19 @@ Symmetric algorithms employed today use both long sequences of complicated subst
 - Consider algorithm a box of boxes, each box has own set of mathematical rules.
 - If each of our messages always go through the same boxes and values, the evildoer can easily figure out the process.
 - To foil the evildoer, we use the key which defines from which boxes and values will the message pass.
+- If one message is encypted with key one for instance, it will pass through box 1, 5, & 6. If encrypted with another key, it will go through other boxes defined in the key.
+
+# Methods of Encryption
+- Two entities need same key or algorithm to communicate via encryption.
+- Sometimes, diffrent but related keys are used.
+
+## Symmetric VS Asymmetric Algorithms
+### Symmetric Algoritms
+- Symmetric algorithms use same symmetric or secret keys.
+- Sender and receiver uses the instances of the same key for encryption and decryption.
+- Key has dual functionality of encrypting and decrypting the message.
+- Symmetric keys are also called secret keys as users have to keep the key a secret and properly protected.
+
+### Asymmetric Algorithms
+- Asymmetric algorithms use same asymmetric or public and private keys.
+- The more the people to share message with, more instances of key are needed.
