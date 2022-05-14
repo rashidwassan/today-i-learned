@@ -329,4 +329,6 @@ HTTP Secure (HTTPS) is HTTP running over SSL. (HTTP works at the application lay
 - The server sends a message back to the client, indicating a secure session should be established, and the client in response sends its security parameters. The server compares those security parameters to its own until it finds a match. 
 - The client generates a session key and encrypts it with the server’s public key. This encrypted key is sent to the web server, and they both use this symmetric key to encrypt the data they send back and forth. This is how the secure channel is established.
 
-
+- Http works at application layer and HTTPS works on transport layer.
+- Data transmitted is encrypted.
+- SSL is made up of two protocols: one works at lower end of session layer another on top of transport layer.
