@@ -62,3 +62,39 @@
 ### Minimising these burdens is the goal of most interface designers
   - Standard widgets
   - Modern interface building tools
+
+## Shneiderman's "Eight Golden Rules of Interface Design"
+1) Strive for consistency
+2) Enable frequent users to use shortcuts
+3) Offer information feedback
+4) Desing dialog to yield closure
+5) Offer simple error handling
+6) Permit easy reversals of actions
+7) Support internal locus of control
+8) Reduce short term memory load
+
+
+# Understanding and Conceptualizing Interaction
+HCI has moved beyond the basic designs for desktop machines.
+### Understanding the problem space
+1) What do you want to create?
+2) What are your assumptions?
+3) Will it achieve what you hope it will?
+
+### Framework for analysing the problem space
+1) What are the problems?
+2) Why are those?
+3) Why your ideas might be useful?
+4) How would you see people using it?
+5) How will it support people in their activities?
+6) Will it really help them?
+
+### Assumptions - realistic or wishlist?
+1) All those things which people want are reasonable.
+2) Things wihch limit or hinder interaction are not reasonable.
+
+### From problem space to design space
+- Good understanding of problem space helps in finding design space.
+- Important to develop a conecptual model first.
+### Conceptual Model
+- How the system will appear to users?
