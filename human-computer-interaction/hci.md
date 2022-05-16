@@ -197,4 +197,9 @@ HCI has moved beyond the basic designs for desktop machines.
 
 ### Gesture Technology
 - Gesture: Non verbal communication type. Involves hands, face, and other parts of the body.
-- 
+- Types: Hand gesture, facial expression, Sign language,
+- Touch based, non-touch based.
+- Vision based
+- Controller based
+- Uses: Socially assistive robots, Sign language recognition, virtual controllers, remote control.
+- Challenges: Lack of gesture language, robustness, performance.
