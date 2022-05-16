@@ -108,3 +108,27 @@ HCI has moved beyond the basic designs for desktop machines.
   - Many ways to classify them.
   - Here we describe them in terms of core activities and objects and interface metaphors.
 
+### Conceptual models based on activities
+- Giving instructions: Users instruct the systems what they want to do, very common conceptual model. Supports quick and efficient interaction.
+- Conversing: Having a convesion with another human, voice recognition to natural language commands. Search engines.
+- Manipulating and navigating: Dragging, clicking, opening, closing, and zooming options on virtual objects.
+- Exploring & browsing
+
+### Core principals of Data Manipulation
+1) Continous representation of objects and actions of interest/
+2) Physical actions instead of complex commands.
+3) Rapid reversible actions.
+
+### Why DM interfaces are so enjoyable?
+- Quick adoption
+- Rapid working
+- Operational concept retention
+- Error messages rarely needed.
+- Less anxiety.
+- User gains confidence.
+
+### Disadvantages of DM
+- Some people take metaphors too literaly
+- Not all tasks can be described by objects
+- No all actions can be done directly.
+- Can become screen space gobblers.
