@@ -203,3 +203,12 @@ HCI has moved beyond the basic designs for desktop machines.
 - Controller based
 - Uses: Socially assistive robots, Sign language recognition, virtual controllers, remote control.
 - Challenges: Lack of gesture language, robustness, performance.
+
+### Types of User Interfaces:
+User Interface Components: Presentation language (computer to human), action language (human to computer).
+- Natural Language Interfaces: Voice commands and feedback.
+- Question-and-answer interfaces: Like in dialogs where asking questions for conformation.
+- A menu interface: Nested menus.
+- Form Fill interface
+- Command Language Interface
+- Graphical User Interfaces
