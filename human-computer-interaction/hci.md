@@ -112,14 +112,14 @@ HCI has moved beyond the basic designs for desktop machines.
 - Giving instructions: Users instruct the systems what they want to do, very common conceptual model. Supports quick and efficient interaction.
 - Conversing: Having a convesion with another human, voice recognition to natural language commands. Search engines.
 - Manipulating and navigating: Dragging, clicking, opening, closing, and zooming options on virtual objects.
-- Exploring & browsing
+- Exploring & browsing: Similar to how people browse information with existing media.
 
 ### Core principals of Data Manipulation
 1) Continous representation of objects and actions of interest/
 2) Physical actions instead of complex commands.
 3) Rapid reversible actions.
 
-### Why DM interfaces are so enjoyable?
+### Why Direct Manipulation interfaces are so enjoyable?
 - Quick adoption
 - Rapid working
 - Operational concept retention
@@ -127,8 +127,44 @@ HCI has moved beyond the basic designs for desktop machines.
 - Less anxiety.
 - User gains confidence.
 
-### Disadvantages of DM
+### Disadvantages of Direct Manipulation
 - Some people take metaphors too literaly
 - Not all tasks can be described by objects
 - No all actions can be done directly.
 - Can become screen space gobblers.
+
+### Examples of Direct Manipulation
+- Command line vs Word Processing vs Display Editors
+- Video Games
+- Computer Aided Design - Office Automation
+
+### Problems with Direct Manipulation
+- Spatial or Visual representations can be too spread out.
+- High-level flowcharts and database-schema can become confusing.
+- Valuable information can be offscreen.
+
+### Which conceptual model is best?
+- Direct Manipulation: For designing, drawing, flying, driving.
+- Issuing instructions: Best for repetitive tasks.
+- Conversation: Good for children.
+- Hybrid Conceptual Model: Interfaces that take longer to learn.
+
+### Interaction Mode: What user is doing?
+### Interaction Style: Kind of user interface to support the mode.
+1) Command
+2) Speech
+3) Data-Entry
+4) Form-fill
+5) Query
+6) Graphical
+7) Web
+8) Pen
+9) AR
+10) Gesture
+
+### Examples of new paradigms:
+- Ubiquitous Computing
+- Pervasive Computing
+- Wearable Computing
+- AR
+- Transparent computing.
