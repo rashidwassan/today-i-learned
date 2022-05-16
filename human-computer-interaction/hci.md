@@ -33,3 +33,17 @@
   - Lexical: Shape of icons, actual key pressed.
   - Syntactic: Order of inputs and outputs in an interaction.
   - Semantic: Dialog on internal application/data is taken care of.
+
+## Norman's Seven Stages of Action Models
+1) Forming the goal
+2) Forming the intention
+3) Specifying the action
+4) Executing the action
+5) Perceiving the system state
+6) Interpreting the system state
+7) Evaluating the outcome
+### Four principals of good design
+1) visible state and alternative actions.
+2) good conceptual model with consistent system image.
+3) Good mappings that reveal the relationships between images.
+4) User should continously recieve feebacks.
