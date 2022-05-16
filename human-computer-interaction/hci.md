@@ -212,3 +212,29 @@ User Interface Components: Presentation language (computer to human), action lan
 - Form Fill interface
 - Command Language Interface
 - Graphical User Interfaces
+
+# Interaction Style & Screen Design
+## Interaction Style & Screen Design
+### Menu
+- Advantages: Self Explanatory, requires less human memory, less keystrokes, easy error handling, enhancements are visible.
+- Disadvantages: Inefficient, inflexible, impractical, take up screen space.
+- Types: Single menus, Tree Structure, Acyclic Network, Cyclic Network.
+1) Single menus
+2) Binary having two options
+3) Multiple
+4) Pull down
+5) Popup
+6) Fisheye
+7) Two dimensional
+- Combination of Menus:
+1) Linear
+2) Simultaneous
+3) Tree Structured
+4) Menu Map
+- Design Guidelines:
+1)   
+### Fill-in Form
+### Natural Language
+### Command Language
+### Window & Icon
+## Screen Design
