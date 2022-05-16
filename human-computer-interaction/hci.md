@@ -98,3 +98,13 @@ HCI has moved beyond the basic designs for desktop machines.
 - Important to develop a conecptual model first.
 ### Conceptual Model
 - How the system will appear to users?
+- A conceptual model is the high level description of “the proposed system in terms of a set of integrated ideas and concepts about what it should do, behave and look like, that will be understandable by the users in the manner intended”.
+- First Steps in formulating a conceptual model:
+  - What will users be doing?
+  - How will the system support these?
+  - What kind of interface metaphor will be appropriate?
+  - What kinds of interaction modes to use?
+- Conceptual Models:
+  - Many ways to classify them.
+  - Here we describe them in terms of core activities and objects and interface metaphors.
+
