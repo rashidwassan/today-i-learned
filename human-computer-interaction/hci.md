@@ -47,3 +47,18 @@
 2) good conceptual model with consistent system image.
 3) Good mappings that reveal the relationships between images.
 4) User should continously recieve feebacks.
+
+### Inconsistent action verbs
+- Take longer to learn
+- Cause more errors
+- Slow down users
+- Harder for users to remember
+
+### The dissapearance of syntax
+- Users must maintain excess of device dependant details in their human memory.
+  - Which action erases a character
+  - Which action inserts a new line
+  - Which abbreviations are permissible
+### Minimising these burdens is the goal of most interface designers
+  - Standard widgets
+  - Modern interface building tools
