@@ -168,3 +168,33 @@ HCI has moved beyond the basic designs for desktop machines.
 - Wearable Computing
 - AR
 - Transparent computing.
+
+
+## Virtual Environments
+### What is VR?
+- Artificial Environment created by software. And Users accepts it as real one.
+- Two senses used: sight & sound.
+- Tricking” the user’s mind into accepting the presence of a 3D environment is a core goal of VR.
+- Factors: Interactivity & Immersion
+- Define VR: High-end user-computer interface with real-time simulation.
+### 3 I's of VR
+- Immersion: Feeling of presence, the amount and quality of stimuli and sensations.
+- Interaction: Not just passive watching, moving, and doing all stuff.
+- Imagination: Applications, ideas, virtual worlds.
+
+### Ivan Sutherland's Ultimate display:
+- Not just a screen, a window to a virtual world.
+### Key Elements of VR:
+- Virtual World
+- Immersion
+- Sensory Feedback
+- Interactivity
+
+### Components of Software System
+- Rendering
+- Polling
+- Computation
+
+### Gesture Technology
+- Gesture: Non verbal communication type. Involves hands, face, and other parts of the body.
+- 
