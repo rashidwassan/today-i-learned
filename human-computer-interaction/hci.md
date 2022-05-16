@@ -232,8 +232,32 @@ User Interface Components: Presentation language (computer to human), action lan
 3) Tree Structured
 4) Menu Map
 - Design Guidelines:
-1)   
+1) Structure
+2) Depth-Breadth
+3) Vertical choice lists
+4) Cosider pie menu
+5) Deletion of iactive items
+6) Use familiar terminology
+7) Make them brief & consistent
+8) Consider menu choice descriptors, choice ordering.
+### Choice selection
+- For keyboard-driven menu: Cursor, mnemonic, numbers, non-mnemonic.
 ### Fill-in Form
+Similar to paper fill-in-form.
+- Advantages
+  - Self Explanatory
+  - Require Little Memory
+  - Efficient Use of Screen Real Estate
+  - Accomodate parameters with many possible values
+  - Provide Context
+  - Enhancements are visible
+- Disadvantages
+  - Assume knowledge of valid input
+  - Assume typing skills
+
+### Design Guidelines
+1) Organize the form to support task
+2) Organize groups of items by category, sequence, frequency, and importance.
 ### Natural Language
 ### Command Language
 ### Window & Icon
