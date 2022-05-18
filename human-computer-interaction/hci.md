@@ -258,6 +258,22 @@ Similar to paper fill-in-form.
 ### Design Guidelines
 1) Organize the form to support task
 2) Organize groups of items by category, sequence, frequency, and importance.
+3) Use whitespaces
+4) Separate logical groups
+- Caption and field design
+  1) Place captions on left
+  2) Provide Headings
+  3) Distinguish Captions from Fields
+  4) Brief, familiar, & descriptive captions.
+  5) Indicate optional fields.
+- Input Format
+  1) Provide system completion
+  2) When user moves the cursor to the next field, the completed information in the previous field should be displayed.
+  3) Provide default values.
+  4) Should be case blind.
+5) Avoid Complex rules
+6) Meaningful groupings
+7) For diplay of fields use helper dashes.
 ### Natural Language
 ### Command Language
 ### Window & Icon
