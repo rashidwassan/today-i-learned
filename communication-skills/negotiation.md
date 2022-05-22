@@ -25,3 +25,13 @@ Best Alternative to a Negotitated Agreement.
 
 ### How to access them?
 - Google, industry publications, public filings, contracts, putting yourself in one's shoes.
+
+### Mistakes in negotiations
+- Assuming shared values, assuming similar prefrences, expecting reciprocity, avoiding conflict, trying to prove how smart you are by talking more.
+
+### Negotitation barriers
+- Lack of trust
+- Irrational expectations
+- Partisan mindset
+- Spoilers
+- Not listening carefully
