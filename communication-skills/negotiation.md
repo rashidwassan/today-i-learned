@@ -35,3 +35,21 @@ Best Alternative to a Negotitated Agreement.
 - Partisan mindset
 - Spoilers
 - Not listening carefully
+- Overconfidence
+- Lack of information
+
+### Dealing effectively with spoilers
+- Explain why
+- Emphasize the benefits
+- Build a coalition
+
+### Role of emotions
+- Negative: Infuses tension, limits communication, creates fear of losing, limits agreement.
+- Positive: Builds trust, improves communication, fosters the sense of fairness, support for final agreement.
+
+### Listen, Listen, really listen
+1) Take Notes
+2) Focus
+3) Don't think about your response
+4) Notice body language
+
