@@ -35,10 +35,24 @@
 <!-- This is a comment -->
 ```
 
-### Headings
+## Headings
+Here, the number of leading hash characters define type.
 # Heading 1
 ## Heading 2
 ### Heading 3
 #### Heading 4
 ##### Heading 5
 ###### Heading 6
+---
+
+## Horizontal line
+```
+---
+```
+---
+## Italics
+To make specifi part *Italic*
+```
+The word *italic* is italic.
+```
+Result: The word *italic* is italic.
