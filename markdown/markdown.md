@@ -31,7 +31,7 @@
 ### Comments
 - Comments can be added like in HTML
 <!-- This is a comment -->
-```
+``` markdown
 <!-- This is a comment -->
 ```
 
@@ -46,13 +46,34 @@ Here, the number of leading hash characters define type.
 ---
 
 ## Horizontal line
-```
+``` markdown
 ---
 ```
 ---
 ## Italics
 To make specifi part *Italic*
-```
+``` markdown
 The word *italic* is italic.
 ```
+OR
+``` markdown
+The word _italic_ is italic.
+```
 Result: The word *italic* is italic.
+
+## Strikethrough
+OP: ~~Hello World!~~
+
+Syntax:
+```
+~~Hello World~~
+```
+
+## Showing special symbols
+- Backslash is used just like in some programming languages.
+
+OP: \~~Hello World!~~
+Syntax:
+```
+\~~Hello World!~~
+```
