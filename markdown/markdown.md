@@ -77,3 +77,36 @@ Syntax:
 ```
 \~~Hello World!~~
 ```
+
+## Blockquote
+> This is a quote
+
+Code:
+```
+> This is a quote.
+```
+
+## Links
+To display a link, the title to be shown is written in square brackets and link goes in succeeding parenthesis.
+
+OP: [Rashid's Portfolio](https://www.rashidwassan.tech)
+
+Code:
+```
+[Rashid's Portfolio](https://www.rashidwassan.tech)
+```
+
+# Lists
+## Unordered List
+We can create an unordered list usign * in start.
+* Item 1
+* Item 2
+* Item 3
+
+Code:
+```
+* Item 1
+* Item 2
+* Item 3
+
+```
