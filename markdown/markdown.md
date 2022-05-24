@@ -43,6 +43,15 @@ Here, the number of leading hash characters define type.
 #### Heading 4
 ##### Heading 5
 ###### Heading 6
+> Code:
+```
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+```
 ---
 
 ## Horizontal line
@@ -64,7 +73,7 @@ Result: The word *italic* is italic.
 ## Strikethrough
 OP: ~~Hello World!~~
 
-Syntax:
+>Syntax:
 ```
 ~~Hello World~~
 ```
@@ -73,7 +82,7 @@ Syntax:
 - Backslash is used just like in some programming languages.
 
 OP: \~~Hello World!~~
-Syntax:
+> Syntax:
 ```
 \~~Hello World!~~
 ```
@@ -81,7 +90,7 @@ Syntax:
 ## Blockquote
 > This is a quote
 
-Code:
+> Code:
 ```
 > This is a quote.
 ```
@@ -91,7 +100,7 @@ To display a link, the title to be shown is written in square brackets and link 
 
 OP: [Rashid's Portfolio](https://www.rashidwassan.tech)
 
-Code:
+> Code:
 ```
 [Rashid's Portfolio](https://www.rashidwassan.tech)
 ```
@@ -103,7 +112,7 @@ We can create an unordered list usign * in start.
 * Item 2
 * Item 3
 
-Code:
+> Code:
 ```
 * Item 1
 * Item 2
@@ -120,7 +129,7 @@ Nested lists can be easily created with tab identation.
   * Item 6
 * Item 7
 
-Code:
+> Code:
 ```
 * Item 1
   * Item 2
@@ -129,4 +138,37 @@ Code:
     * Item 5
   * Item 6
 * Item 7
+```
+
+## Ordered List
+
+1. Item 1
+1. Item 2
+1. Item 3
+1. Item 4
+
+OR
+
+1. Item 1
+   1. SubItem
+      1. Micro item
+      2. Micro item 2
+2. Item 2
+3. Item 3
+
+> Code:
+``` markdown
+1. Item 1
+1. Item 2
+1. Item 3
+1. Item 4
+
+OR
+
+1. Item 1
+   1. SubItem
+      1. Micro item
+      2. Micro item 2
+2. Item 2
+3. Item 3
 ```
