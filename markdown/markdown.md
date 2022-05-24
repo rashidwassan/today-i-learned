@@ -104,7 +104,7 @@ OP: [Rashid's Portfolio](https://www.rashidwassan.tech)
 ```
 [Rashid's Portfolio](https://www.rashidwassan.tech)
 ```
-
+---
 # Lists
 ## Unordered List
 We can create an unordered list usign * in start.
@@ -185,6 +185,7 @@ Code block is displayed by wrapping code with ```. Syntax highlighting can be en
 // This is dart code
 void main(){ print('Hello'); }
 ```
+---
 ## Image
 ```
 ![Markdown logo](https://exampleimagelink.com)
@@ -213,3 +214,13 @@ Task lists can be used on GitHub. The x in square brackets denote the completion
 * [ ] Task 2
 * [x] Task 3
 * [ ] Task 3
+---
+
+## Fenced Code Block
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
