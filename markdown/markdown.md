@@ -205,3 +205,11 @@ Table:
 | Header | Title |
 | Paragraph | Text |
 ```
+
+---
+## Task List
+Task lists can be used on GitHub. The x in square brackets denote the completion of task.
+* [x] Task 1
+* [ ] Task 2
+* [x] Task 3
+* [ ] Task 3
