@@ -172,3 +172,36 @@ OR
 2. Item 2
 3. Item 3
 ```
+---
+## Inline Codeblock
+`This is some inline code`.
+``` markdown
+`This is some inline code`.
+``` 
+
+## Code Block
+Code block is displayed by wrapping code with ```. Syntax highlighting can be enabled when defining the language name after inital three quote marks.
+``` dart
+// This is dart code
+void main(){ print('Hello'); }
+```
+## Image
+```
+![Markdown logo](https://exampleimagelink.com)
+```
+
+---
+## Tables
+Table:
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+> Code
+```
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+```
