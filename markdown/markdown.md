@@ -110,3 +110,23 @@ Code:
 * Item 3
 
 ```
+## Nested lists
+Nested lists can be easily created with tab identation.
+* Item 1
+  * Item 2
+    * Item 3
+      * Item 4
+    * Item 5
+  * Item 6
+* Item 7
+
+Code:
+```
+* Item 1
+  * Item 2
+    * Item 3
+      * Item 4
+    * Item 5
+  * Item 6
+* Item 7
+```
