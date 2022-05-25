@@ -38,3 +38,29 @@
 - Which components of the performance element are to be learned.
 - What feedback is available to learn these components.
 - What representation is used for the components.
+### Types of feedback:
+- `Supervised Learning:` Correct answers for each example.
+- `Unsupervised Learning:` Correct answers not given.
+- `Reinforcement Learning:` Occasional rewards.
+
+## Three Important Roles of Machine Learning
+1) `Data Mining:` Use of historical data to improve decisions.
+2) `Software Application:` Speech recognition software.
+3) `Self Customizing Programs:` Newsreader app.
+
+## Machine Learning Tasks
+- `Categorization:` Learn why certain objects are categorized in that way.
+- `Prediction:` Learn how to predict and categorize unseen data.
+
+## Potentials for Machine Learning:
+- Agents can learn from these examples:
+  - Which chemicals are toxic?
+  - Which patients have a decease?
+  - Which vehicles are tanks?
+
+## Examples of Machine Learning Problems:
+- `Pattern Recognition`
+- `Optimization`
+- `Pattern Generation`
+- `Anomaly Detection`
+- `Prediction`
