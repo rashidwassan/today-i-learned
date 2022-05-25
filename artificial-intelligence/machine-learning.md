@@ -23,3 +23,18 @@
 - `When we have lots of 'unlabeled' data:`
   - Data is of high dimensions.
   - Labeled data sets are harder to come by.
+
+## Learning in AI
+- Essential for unknown environments.
+- Learning is useful.
+- Learning can modify the agent's decision making mechanisms to improve performance.
+- Understand and improve the efficiency of human learning.
+- Discover new things or structure that is unknown to human.
+- Fill in skeletal or incomplete information about a domain.
+- Build software agents that can adapt to their users or to other agents.
+
+## Learning Element
+### Design of a learning element is affected by:
+- Which components of the performance element are to be learned.
+- What feedback is available to learn these components.
+- What representation is used for the components.
