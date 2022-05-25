@@ -160,3 +160,21 @@ Central part of a neuron. It contains nucleus and protein synthesis machine. Siz
 - Contain input layer, hidden layer(s), and output layer.
 - Hidden layers cannot be accessed from outside the network.
 - There maybe some partially connected feedforward networks with one hidden layer.
+
+## Recurrent or Feedback networks:
+- Models with bidirectional dataflow, data can flow back to earlier stage as well.
+
+## Some other ANNs
+- Hopfield network
+- Echo state network
+- Stochastic neural networks
+- Boltzmann machine
+- Committee of machines
+- Associative neural network
+
+## ANN Training Algorithm
+- Weights are set random initially.
+- For each training example E:
+  - Calculate observed O/P from ANN o(E).
+  - If target t(E) is different to o(E), tweak all the weights to make them closer.
+  - Tweaking is done by perceptron training rule.
