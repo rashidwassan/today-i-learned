@@ -73,4 +73,30 @@ Three major activities:
 1) Development
 2) Consultation
 3) Improvement
+   
+### Types of Expert Systems
+- Expert system and Knowledge - Based systems.
+- Rule Based Expert Systems: Developed one.
+- Frame Based Expert Systems: Knowledge is represented as frames.
+- Hybrid Systems: May contain frames and rules.
+- Model Based Systems: Structured around the model.
+- Realtime Expert Systems: Focus on system's response time.
+- Ready-Made Systems: Very general.
 
+## Limitations of Expert Systems
+- Ability to learn
+- Development cost
+- Bad at broad knowledge requiring solutions
+- Bad at subjective managerial decision-making
+- Difficult an costly to develop
+
+## Expert System Shells
+- Shell is complete development environment for building and maintaining knowledge based systems.
+- Many commercial shells are available.
+
+## Shell Examples
+- CEST
+- CLIPS
+- DYNACLIPS
+- M.4
+- XpertRule
