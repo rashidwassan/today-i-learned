@@ -117,7 +117,8 @@ Central part of a neuron. It contains nucleus and protein synthesis machine. Siz
 
 5) Hyperbolic Tangent Sigmoid:
    1) Shown in figure:
-   2) ![](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/60be1a9bac9b73842964585e_math-20210607%20(8).png)
+   
+   ![](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/60be1a9bac9b73842964585e_math-20210607%20(8).png)
 
 ---
 ## Example perceptron
@@ -128,3 +129,34 @@ Central part of a neuron. It contains nucleus and protein synthesis machine. Siz
 ## Perceptron architecture
 - Four input units, one for each pixel.
 - One output unit: +1 for white, -1 for dark.
+- Example: Categorizing vehicles.
+
+## Learning in perceptrons:
+- Need to learn: weights between input & output units. Value for threshold.
+- Make calculations easier by: Thinking of threshold as a weight from special input where output is always 1.
+- Exactly the same result: But we have to worry about learning weights.
+
+## Artificial Neural Network Architectures:
+- Connecting several neurons in specific manner.
+- Defines the network structure.
+- The weights or the strength of connections is adapted to yield good performance.
+- Each ANN has its own learning rule.
+- Types:
+1) Feedforward:
+  - Most popular
+  - Easily implemented
+  - Based on layers, all neurons on same level contain same activation function.
+  - Different level neurons may have different activation functions.
+  - Signal propagates forward only.
+### Single Level Feedforward Networks:
+- Consists of single layer of output nodes.
+- Inputs are fed directly to the outputs via series of weights.
+- Sum of the products of weights and inputs is calculated at each node.
+- If value is above some threshold (typically 0), neuron fires and takes either activated value (+1) or deactivated value (-1).
+- Neurons like these are called *linear threshold units*.
+- Term `perceptron` often refers to the networks consisting of just one of these units.
+
+### Multilayer Feedforward Networks
+- Contain input layer, hidden layer(s), and output layer.
+- Hidden layers cannot be accessed from outside the network.
+- There maybe some partially connected feedforward networks with one hidden layer.
