@@ -65,3 +65,27 @@ Central part of a neuron. It contains nucleus and protein synthesis machine. Siz
 
 ## Model of Artificial Neuron:
 ![](https://upload.wikimedia.org/wikipedia/commons/6/60/ArtificialNeuronModel_english.png)
+- Input parameters:
+  - Input signals: x1, x2, x3, ....., xn.
+  - Synaptic weights: wx1, wx2, wx3, ..... wxn.
+  - Summing function: uk = ∑xi*wxi
+  - Bias = bk.
+
+## Perceptrons
+- Multiple input nodes
+- Single output node
+  - Takes weighted sum of inputs.
+  - Unit function calculates the output of the network.
+- Useful to study because:
+  - We can use perceptrons for building larger networks.
+- Perceptrons have limited representational abilities.
+### Activation functions:
+- Also known as transfer function.
+- Maybe linear or non-linear.
+- A particular activation function is used or different purposes.
+
+### Types of Activation Functions:
+- Linear functions:
+- Threshold functions:
+- Step function:
+- Sigma function: 
