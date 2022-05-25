@@ -86,6 +86,20 @@ Central part of a neuron. It contains nucleus and protein synthesis machine. Siz
 
 ### Types of Activation Functions:
 - Linear functions:
+  - simply output the weighted sum.
 - Threshold functions:
+  - Output low values
+    - Until weighted sum gets over a threshold.
+    - Then outputs high values.
+    - Equivalent of 'firing' of neurons.
 - Step function:
+  - Output +1 if S> threshold T.
+  - Output -1 otherwise.
 - Sigma function: 
+  - Similar to step function but differentiable.
+
+1) The hard limit activation function:
+   1) Sets the output to 0 if the function argument is less than 0.
+   2) Sets output to 1 is argument value is greater than or equal to zero.
+   3) Used in neurons which classify inputs into two distinct classes.
+2) 
