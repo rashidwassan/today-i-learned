@@ -108,6 +108,10 @@
 - Top 20 topics on Twitter right now.
 
 ### Data Organization in Unsupervised Learning
-- `Clustering:`
-- `Anomaly Detection:`
-- `Association:`
+- `Clustering:` If items are similar to each other group them together.
+- `Anomaly Detection:` Flag out liners.
+- `Association:` Certain features of a data sample correlate with other features.
+
+### Clustering
+- Also known as Unsupervised Learning.
+- In fact,clustering is one of the most utilized data mining techniques.
