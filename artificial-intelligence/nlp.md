@@ -38,3 +38,47 @@
 - `Imprecision`
 - `Incompleteness`
 - `Inaccuracy`
+
+## Parsing
+In this process sentence is converted into a hierarchical structure that corresponds to the units of meaning in the sentence.
+## Working of a parser
+- Identification of noun and verb phrases and their breakdown.
+- Syntactic analysis.
+- These noun and verb phrases are further broken down for extraction of meaning.
+
+## Lexicon
+- Word bank
+- Contains all the recognizable words
+- Parser works closely with Lexicon
+- Contains correct spellings of words
+
+## Understander and Knowledge base
+- Understander performs semantic analysis
+- Understander works in conjunction with the knowledge base to determine what the sentence means.
+- The knowledge base is the primary means of understanding.
+
+## Generator
+- The generator uses the understood input to create a usable output.
+- In DBMS, the generator would write a program in a query language to begin a search for specific information.
+
+## N-Gram
+- A subsequence of n items from a given sequence
+  - Unigram: N-Gram of Size 1
+  - Bigram: N-Gram of Size 2
+  - Trigram: N-Gram of Size 3
+- Items:
+  - Phonemes
+  - Syllables
+  - Letters
+  - Words
+- Example: Bigram: 'A bird'
+
+## N-Gram Model
+- A Probabilistic Model for Predicting the next Item in such a sequence.
+- Why do we want to Predict Words? for different software.
+- Predicts xi based on xi – 1, xi – 2 , ..., xi – n:
+- NGram Independence Assumption:
+  - word is affected only by its “prior local context” (last few words)
+
+## Morphology
+- Morphology is the study of the internal structure of words, of the way words are built up from smaller meaning units.
