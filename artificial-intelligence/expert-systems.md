@@ -41,3 +41,20 @@
 - `Rules:` Most commercial systems are rule based systems. Knowledge is stored in form of rules.
 
 ### Explanation Capability
+- Ability to explain system's advice and recommendations and even to justify why a certain action was not recommended.
+- The explanation and justification is done in a subsystem called the `justifier`, or the explanation subsystem.
+
+## Structure of Expert Systems:
+Two main parts:
+- `The Development Environment:` Used to build the system components and introduce knowledge.
+- `The Consultation Environment:` Used by non expert to obtain knowledge.
+![](https://i.imgur.com/c57gLme.png)
+
+## Components of an Expert System:
+1) Knowledge Acquisition Subsystem:
+2) Knowledge Base
+3) Inference Engine
+4) Blackboard
+5) User Interface
+6) Explanation Subsystem
+7) Knowledge Refining System
