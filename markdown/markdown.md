@@ -60,7 +60,7 @@ Here, the number of leading hash characters define type.
 ```
 ---
 ## Italics
-To make specifi part *Italic*
+To make specific part *Italic*
 ``` markdown
 The word *italic* is italic.
 ```
@@ -107,7 +107,7 @@ OP: [Rashid's Portfolio](https://www.rashidwassan.tech)
 ---
 # Lists
 ## Unordered List
-We can create an unordered list usign * in start.
+We can create an unordered list using * in start.
 * Item 1
 * Item 2
 * Item 3
@@ -120,7 +120,7 @@ We can create an unordered list usign * in start.
 
 ```
 ## Nested lists
-Nested lists can be easily created with tab identation.
+Nested lists can be easily created with tab indentation.
 * Item 1
   * Item 2
     * Item 3
@@ -180,7 +180,7 @@ OR
 ``` 
 
 ## Code Block
-Code block is displayed by wrapping code with ```. Syntax highlighting can be enabled when defining the language name after inital three quote marks.
+Code block is displayed by wrapping code with ```. Syntax highlighting can be enabled when defining the language name after initial three quote marks.
 ``` dart
 // This is dart code
 void main(){ print('Hello'); }
