@@ -51,10 +51,26 @@ Two main parts:
 ![](https://i.imgur.com/c57gLme.png)
 
 ## Components of an Expert System:
-1) Knowledge Acquisition Subsystem:
-2) Knowledge Base
-3) Inference Engine
-4) Blackboard
-5) User Interface
-6) Explanation Subsystem
-7) Knowledge Refining System
+1) `Knowledge Acquisition Subsystem:`
+2) `Knowledge Base`
+3) `Inference Engine:` It is the brain of expert systems, also known as control structure of the rule interpreter.
+   1) Interpreter
+   2) Scheduler
+   3) Consistency Enforcer
+4) `Blackboard:` area of working memory. Plan, Agenda, Solutions.
+5) `User Interface:` Language processor for friendly, problem-oriented communication between the user and the computer.
+6) `Explanation Subsystem (Justifier)`.
+7) `Knowledge Refining System: `Human experts have a knowledge refining system, that is, they can analyze their own performance, learn from it, and improve it for future consultations.
+
+### Human Element in Expert Systems
+At least two humans (expert, user) participate in the use and development of an expert system.
+- `The Expert: ` Domain expert having expertise, special knowledge, judgement, experience. The expert knows which facts are important and understands the meaning of relationships among facts.
+- `The Knowledge Engineer: `The knowledge engineer helps the expert structure the problem area by interpreting and integrating human answers to questions, drawing analogies, posing counterexamples, and bringing to light conceptual difficulties.
+- `The Users`
+
+### Working of expert systems
+Three major activities:
+1) Development
+2) Consultation
+3) Improvement
+
