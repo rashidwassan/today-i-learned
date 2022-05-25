@@ -178,3 +178,12 @@ Central part of a neuron. It contains nucleus and protein synthesis machine. Siz
   - Calculate observed O/P from ANN o(E).
   - If target t(E) is different to o(E), tweak all the weights to make them closer.
   - Tweaking is done by perceptron training rule.
+  - Repeat the cycle (an epoch) until ANN produces the correct output.
+
+## Perceptron Training Rule:
+`Δi = η(t(E)-o(E))xi`
+
+## Boolean Functions:
+- Take two inputs (-1 or +1)
+- Produces one output (-1 or +1)
+- Example: AND Function, or OR Function.
