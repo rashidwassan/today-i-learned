@@ -102,4 +102,29 @@ Central part of a neuron. It contains nucleus and protein synthesis machine. Siz
    1) Sets the output to 0 if the function argument is less than 0.
    2) Sets output to 1 is argument value is greater than or equal to zero.
    3) Used in neurons which classify inputs into two distinct classes.
-2) 
+   4) `Net input = u = 1.8x3 = 5.4. Neuron O/P: f(u) = 1`.
+
+2) Symmetric hard limit:
+   1) Similar to hard limit activation function, but outputs -1 if input is less than zero.
+
+3) Linear activation function:
+   1) y = u
+   2) Output = input
+
+4) The log-sigmoid function
+   1) Takes the value of input, squashes it into the range of 0-1.
+   2) `y=1/(1+e^-u)`
+
+5) Hyperbolic Tangent Sigmoid:
+   1) Shown in figure:
+   2) ![](https://assets-global.website-files.com/5d7b77b063a9066d83e1209c/60be1a9bac9b73842964585e_math-20210607%20(8).png)
+
+---
+## Example perceptron
+- Categorization of 2x2 pixel black & white images into `bright` and `dark`.
+- Representation: if number of white pixels >= 2, image is bright.
+- Dark otherwise.
+
+## Perceptron architecture
+- Four input units, one for each pixel.
+- One output unit: +1 for white, -1 for dark.
