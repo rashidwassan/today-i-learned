@@ -28,7 +28,7 @@ This paper is regarding the natural communication b/w the humans and computers. 
 This paper includes the establishment of techniques in order to make a virtual mouse which will be controlled through hand gestures. The main motive is to establish a complete device free mouse so the communication may become less complex. A virtual mouse system based on HCI will utilize computer vision and hand gestures. Gestures captured with a built-in camera or webcam and processed with color segmentation & detection technique. The user will be allowed to control some of the computer cursor functions with their hands which bear colored caps on fingertips. Hence, a user can perform scrolling and various clicks using hand in different gestures and consequently it will eliminate the device dependency in order to use a mouse.
 
 ## 7: Paper of choice(Interaction Devices as Assistive Technology)
-Current Practices about Evaluation Methodologies
+> Current Practices about Evaluation Methodologies
 `Summary:-`
 The motive of this paper is to discuss early stage evaluation of interaction devices so that the barriers b/w the user and the device can be revealed. The use of Assistance Technology (AT) is analyzed through semi-structured interviews and the findings from these interviews suggest that various dimensions are considered during the evaluation process. Besides, there are also other aspects like economical and emotional issues related to the devices. Consequently, the article ends up with the discussion of various methodologies regarding the Assistance Technology for Interaction Devices.
 
