@@ -2,7 +2,6 @@
 
 
 ## There are four main types of APIs
-### GraphQL
 
 ### RPC
 - Stands for `Remote Procedure Call`
@@ -31,3 +30,13 @@
 - It uses HTTP methods.
 - REST has supports constraints, defining the limits, which should not be crossed.
 - Has `Client-Server Autonomy`, means teh client and the server don't care about each other's internal parts.
+- REST provides session independence.
+- States of prior requests are not stored since each request is considered to be the new request.
+- REST is `chatty`, means the API which request the tremendous amount of distinct API calls.
+
+### GraphQL
+- Due to huge number of calls requirements of REST, `Facebook` came up with the alternative.
+- GraphQL was launched in 2015.
+- In REST, there are lot of endpoints to take care of.
+- GraphQL endpoints can be customized by the clients. 
+- Client decides how the data should be structured.
