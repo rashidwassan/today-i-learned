@@ -12,12 +12,12 @@
 - If the client calls the server in RPC API, a client STUB converts the parameters used in the function of the call.
 - The server the decodes the parameters.
 - RPC is around since the 80s.
-- Today most of the big tech including Facebook, are using Google's RPC, called gRPC for their internal microservice architecture. 
+- Today most of the big tech including Facebook, are using Google's RPC, called `gRPC` for their internal microservice architecture. 
 
 ### SOAP
 - Released in 1999.
 - Stands for `Simple Object Access Protocol`.
-- It addresses the problem with XML based PRC APIs, which did not differenciate between data types.
+- It addresses the problem with XML based PRC APIs, which did not differentiate between data types.
 - It uses SOAP messages, enclosed in SOAP envelope tag.
 - Envelope contains a header and body.
 - Header contains the metadata including `security token`.
