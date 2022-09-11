@@ -27,4 +27,3 @@ global.console.log();
 - Every file in node app is considered module.
 - Modules are the building blocks of the node application.
 - Modules prevent the overriding of the methods and variables.
-- 
